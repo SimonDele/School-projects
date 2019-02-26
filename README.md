@@ -17,10 +17,10 @@ Image Inpainting for Irregular Holes Using Partial Convolutions](https://arxiv.o
 
 ## 2018 - Fourth year
 
-* Implementation of a **Genetic Algorithm** and a simple **Neural Network** to play a game called Flappy Bird (re-implemented) in *Java*. [[repository]](https://github.com/SimonDele/Flappy-Bird-proj-sem), [[report]](/Fourth-year/Flappy_Bird_IA.pdf). <br> <p align="center"> <img src="/Fourth-year/Flappy_Whale/flappy_whale.png" width="300"/> </p>
+* Implementation of a **Genetic Algorithm** and a simple **Neural Network** to play a game called Flappy Bird (re-implemented) in *Java*. [[repository]](https://github.com/SimonDele/Flappy-Bird-proj-sem), [[report]](/Fourth-year/Flappy_Bird_IA.pdf). <br> <p align="center"> <img src="/Fourth-year/Flappy_Whale/flappy_whale.png" height="300"/> </p>
   
 
-* C++ [[report]](https://github.com/SimonDele/School-projects/Fourth-year/Rapport_C%2B%2B.pdf)
+* **C++** project, simulation of a Drone swarm in a 3D environment. Implementation of physical engine, and graphical rendering using OpenGL.  [[report]](https://github.com/SimonDele/School-projects/Fourth-year/Rapport_C%2B%2B.pdf)
 
 * Canv'Us [[report]](https://github.com/SimonDele/School-projects/Fourth-year/Toile_Collaborative.pdf)
 
