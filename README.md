@@ -17,13 +17,13 @@ Image Inpainting for Irregular Holes Using Partial Convolutions](https://arxiv.o
 
 * **Optimisation** course : Summary of Stochastic Average Gradient ([SAG])(https://arxiv.org/abs/1309.2388) article.
 
-* **Hamilton-Jacobi Equation** : Study of [*Chan-Vese*](https://www.ipol.im/pub/art/2012/g-cv/article.pdf) method for *image segmentation*. [[report]](/Final-year/Chan_Vese_Equation_Hamilton_Jacobi/Rapport_Chan_Vese.pdf), [[soutenance]]([[report]](/Final-year/Chan_Vese_Equation_Hamilton_Jacobi/Soutenance_Chan_Vese.pdf))  
+* **Hamilton-Jacobi Equation** : Study of [*Chan-Vese*](https://www.ipol.im/pub/art/2012/g-cv/article.pdf) method for *image segmentation*. [[report]](/Final-year/Chan_Vese_Equation_Hamilton_Jacobi/Rapport_Chan_Vese.pdf), [[soutenance]](/Final-year/Chan_Vese_Equation_Hamilton_Jacobi/Soutenance_Chan_Vese.pdf))  
 
 ## 2018 - Fourth year
 
 * Implementation of a **Genetic Algorithm** and a simple **Neural Network** to play a game called Flappy Bird (re-implemented) in *Java*. [[code]](/Fourth-year/Flappy_Whale/Flappy-Bird-proj-sem), [[report]](/Fourth-year/Flappy_Whale/Flappy_Bird_IA.pdf). <br> <p align="center"> <img src="/Fourth-year/Flappy_Whale/flappy_whale.png" height="300"/> </p>
 
-* **C++** project, simulation of a Drone swarm in a 3D environment. Implementation of physical engine, and graphical rendering using OpenGL.  [[report]](/Fourth-year/C++_Drone/Rapport_C++.pdf), [[code]](/Fourth-year/C++_Drone/Drones/)
+* **C++** project, simulation of a Drone swarm in a 3D environment. Implementation of physical engine, and graphical rendering using OpenGL.  [[report]](/Fourth-year/C++_Drone/Rapport_C++.pdf), [[code]](/Fourth-year/C++_Drone/Drone/)
 
 * Canv'Us, development of a real-time drawing application with multiple contributors at the same time using *RMI* and *Socket* in *JAVA* [[code]](/Fourth-year/CanvUs/ToileCollaborative/)
 
