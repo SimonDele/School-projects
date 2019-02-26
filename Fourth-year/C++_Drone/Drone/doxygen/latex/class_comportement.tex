@@ -1,0 +1,73 @@
+\hypertarget{class_comportement}{}\section{Référence de la classe Comportement}
+\label{class_comportement}\index{Comportement@{Comportement}}
+
+
+{\ttfamily \#include $<$Comportement.\+h$>$}
+
+Graphe d\textquotesingle{}héritage de Comportement\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_comportement}
+\end{center}
+\end{figure}
+\subsection*{Fonctions membres publiques}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_comportement_a0c75007d7346cc14bb680eaa2981cb51}{Comportement}} ()
+\item 
+virtual \mbox{\hyperlink{class_comportement_acbe985635ed33cf141f380720c2e3f77}{$\sim$\+Comportement}} ()
+\item 
+virtual \mbox{\hyperlink{class_vecteur_r3}{Vecteur\+R3}} \mbox{\hyperlink{class_comportement_a38544976fc589cb8243c0c8071a692a6}{aller\+Point}} (const \mbox{\hyperlink{class_vecteur_r3}{Vecteur\+R3}} \&pos\+Actuelle, const \mbox{\hyperlink{class_vecteur_r3}{Vecteur\+R3}} \&destination, const std\+::vector$<$ \mbox{\hyperlink{class_capteur}{Capteur}} $>$ v\+Capteurs, const \mbox{\hyperlink{class_vecteur_r3}{Vecteur\+R3}} vitesse)=0
+\end{DoxyCompactItemize}
+
+
+\subsection{Description détaillée}
+Interface donnant la fonction fondamentale de comportement de chaque \mbox{\hyperlink{class_drone}{Drone}}\+: le choix d\textquotesingle{}un nouveau vecteur accélération. \begin{DoxyAuthor}{Auteur}
+Louis 
+\end{DoxyAuthor}
+
+
+\subsection{Documentation des constructeurs et destructeur}
+\mbox{\Hypertarget{class_comportement_a0c75007d7346cc14bb680eaa2981cb51}\label{class_comportement_a0c75007d7346cc14bb680eaa2981cb51}} 
+\index{Comportement@{Comportement}!Comportement@{Comportement}}
+\index{Comportement@{Comportement}!Comportement@{Comportement}}
+\subsubsection{\texorpdfstring{Comportement()}{Comportement()}}
+{\footnotesize\ttfamily Comportement\+::\+Comportement (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Constructeur vide. \mbox{\Hypertarget{class_comportement_acbe985635ed33cf141f380720c2e3f77}\label{class_comportement_acbe985635ed33cf141f380720c2e3f77}} 
+\index{Comportement@{Comportement}!````~Comportement@{$\sim$\+Comportement}}
+\index{````~Comportement@{$\sim$\+Comportement}!Comportement@{Comportement}}
+\subsubsection{\texorpdfstring{$\sim$\+Comportement()}{~Comportement()}}
+{\footnotesize\ttfamily Comportement\+::$\sim$\+Comportement (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Destructeur vide. 
+
+\subsection{Documentation des fonctions membres}
+\mbox{\Hypertarget{class_comportement_a38544976fc589cb8243c0c8071a692a6}\label{class_comportement_a38544976fc589cb8243c0c8071a692a6}} 
+\index{Comportement@{Comportement}!aller\+Point@{aller\+Point}}
+\index{aller\+Point@{aller\+Point}!Comportement@{Comportement}}
+\subsubsection{\texorpdfstring{aller\+Point()}{allerPoint()}}
+{\footnotesize\ttfamily virtual \mbox{\hyperlink{class_vecteur_r3}{Vecteur\+R3}} Comportement\+::aller\+Point (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_vecteur_r3}{Vecteur\+R3}} \&}]{pos\+Actuelle,  }\item[{const \mbox{\hyperlink{class_vecteur_r3}{Vecteur\+R3}} \&}]{destination,  }\item[{const std\+::vector$<$ \mbox{\hyperlink{class_capteur}{Capteur}} $>$}]{v\+Capteurs,  }\item[{const \mbox{\hyperlink{class_vecteur_r3}{Vecteur\+R3}}}]{vitesse }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+Méthode fondamentale de \mbox{\hyperlink{class_comportement}{Comportement}} des Drones. A partir des positions du \mbox{\hyperlink{class_drone}{Drone}} et de son premier objectif, détermine (la méthode importe peu ici) le vecteur accélération pour la frame suivante. 
+\begin{DoxyParams}{Paramètres}
+{\em pos\+Actuelle} & la position du \mbox{\hyperlink{class_drone}{Drone}} au temps t. \\
+\hline
+{\em destination} & la position à atteindre. \\
+\hline
+{\em v\+Capteurs,le} & vecteur des Capteurs donnant l\textquotesingle{}information sensorielle du \mbox{\hyperlink{class_drone}{Drone}}. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+le vecteur accélération 
+\end{DoxyReturn}
+
+
+Implémenté dans \mbox{\hyperlink{class_naif_a67a1d4cfa924c6f1f2d8c1a9421ae120}{Naif}}.
+
+
+
+La documentation de cette classe a été générée à partir des fichiers suivants \+:\begin{DoxyCompactItemize}
+\item 
+Comportement.\+h\item 
+Comportement.\+cpp\end{DoxyCompactItemize}

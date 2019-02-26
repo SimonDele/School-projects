@@ -1,0 +1,70 @@
+\hypertarget{main_8cpp}{}\section{Référence du fichier main.\+cpp}
+\label{main_8cpp}\index{main.\+cpp@{main.\+cpp}}
+{\ttfamily \#include $<$S\+D\+L/\+S\+D\+L.\+h$>$}\newline
+{\ttfamily \#include $<$G\+L/gl.\+h$>$}\newline
+{\ttfamily \#include $<$G\+L/glu.\+h$>$}\newline
+{\ttfamily \#include $<$cstdlib$>$}\newline
+{\ttfamily \#include $<$list$>$}\newline
+{\ttfamily \#include $<$cppunit/\+Test\+Case.\+h$>$}\newline
+{\ttfamily \#include $<$cppunit/\+Test\+Fixture.\+h$>$}\newline
+{\ttfamily \#include $<$cppunit/ui/text/\+Text\+Test\+Runner.\+h$>$}\newline
+{\ttfamily \#include $<$cppunit/extensions/\+Helper\+Macros.\+h$>$}\newline
+{\ttfamily \#include $<$cppunit/extensions/\+Test\+Factory\+Registry.\+h$>$}\newline
+{\ttfamily \#include $<$cppunit/\+Test\+Result.\+h$>$}\newline
+{\ttfamily \#include $<$cppunit/\+Test\+Result\+Collector.\+h$>$}\newline
+{\ttfamily \#include $<$cppunit/\+Test\+Runner.\+h$>$}\newline
+{\ttfamily \#include $<$cppunit/\+Brief\+Test\+Progress\+Listener.\+h$>$}\newline
+{\ttfamily \#include $<$cppunit/\+Compiler\+Outputter.\+h$>$}\newline
+{\ttfamily \#include $<$cppunit/\+Xml\+Outputter.\+h$>$}\newline
+{\ttfamily \#include $<$netinet/in.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}../include/trackballcamera.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}../include/sdlglutils.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}../include/\+Environnement.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}../include/\+Essaim.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}../include/\+Affichage.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}../tests/tests\+Vecteur\+R3.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}../tests/tests\+Essaim.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}../tests/tests\+Drone.\+h\char`\"{}}\newline
+\subsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{main_8cpp_ab946e2e7f7679350627acfded8e2658b}\label{main_8cpp_ab946e2e7f7679350627acfded8e2658b}} 
+\#define {\bfseries T\+E\+ST}~true
+\item 
+\mbox{\Hypertarget{main_8cpp_ac92ca5ab87034a348decad7ee8d4bd1b}\label{main_8cpp_ac92ca5ab87034a348decad7ee8d4bd1b}} 
+\#define {\bfseries F\+PS}~50
+\item 
+\mbox{\Hypertarget{main_8cpp_a6068a247ff9ece1b0a9773c58144906c}\label{main_8cpp_a6068a247ff9ece1b0a9773c58144906c}} 
+\#define {\bfseries L\+A\+R\+G\+E\+U\+R\+\_\+\+F\+E\+N\+E\+T\+RE}~1366
+\item 
+\mbox{\Hypertarget{main_8cpp_afd1a1e285af564b849b17498e82e1a41}\label{main_8cpp_afd1a1e285af564b849b17498e82e1a41}} 
+\#define {\bfseries H\+A\+U\+T\+E\+U\+R\+\_\+\+F\+E\+N\+E\+T\+RE}~700
+\end{DoxyCompactItemize}
+\subsection*{Fonctions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{main_8cpp_aa077d8200171dd615695f3849282b412}\label{main_8cpp_aa077d8200171dd615695f3849282b412}} 
+{\bfseries C\+P\+P\+U\+N\+I\+T\+\_\+\+T\+E\+S\+T\+\_\+\+S\+U\+I\+T\+E\+\_\+\+R\+E\+G\+I\+S\+T\+R\+A\+T\+I\+ON} (\mbox{\hyperlink{classtests_vecteur_r3}{tests\+Vecteur\+R3}})
+\item 
+\mbox{\Hypertarget{main_8cpp_af0fac8be53d627608f0cc7b2a803a1e9}\label{main_8cpp_af0fac8be53d627608f0cc7b2a803a1e9}} 
+{\bfseries C\+P\+P\+U\+N\+I\+T\+\_\+\+T\+E\+S\+T\+\_\+\+S\+U\+I\+T\+E\+\_\+\+R\+E\+G\+I\+S\+T\+R\+A\+T\+I\+ON} (\mbox{\hyperlink{classtests_essaim}{tests\+Essaim}})
+\item 
+\mbox{\Hypertarget{main_8cpp_a6dc335257f100e7c406d789fed5ea4c2}\label{main_8cpp_a6dc335257f100e7c406d789fed5ea4c2}} 
+{\bfseries C\+P\+P\+U\+N\+I\+T\+\_\+\+T\+E\+S\+T\+\_\+\+S\+U\+I\+T\+E\+\_\+\+R\+E\+G\+I\+S\+T\+R\+A\+T\+I\+ON} (\mbox{\hyperlink{classtests_drone}{tests\+Drone}})
+\item 
+\mbox{\Hypertarget{main_8cpp_a8c528baf37154d347366083f0f816846}\label{main_8cpp_a8c528baf37154d347366083f0f816846}} 
+void {\bfseries stop} ()
+\item 
+\mbox{\Hypertarget{main_8cpp_a0ddf1224851353fc92bfbff6f499fa97}\label{main_8cpp_a0ddf1224851353fc92bfbff6f499fa97}} 
+int {\bfseries main} (int argc, char $\ast$argv\mbox{[}$\,$\mbox{]})
+\end{DoxyCompactItemize}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{main_8cpp_a671e62fc8f42246b1abdc555ed91bcc5}\label{main_8cpp_a671e62fc8f42246b1abdc555ed91bcc5}} 
+\mbox{\hyperlink{class_track_ball_camera}{Track\+Ball\+Camera}} $\ast$ {\bfseries camera}
+\end{DoxyCompactItemize}
+
+
+\subsection{Description détaillée}
+Fichier contenant la fonction main, à lancer pour démarrer l\textquotesingle{}application \mbox{\hyperlink{class_drone}{Drone}} 

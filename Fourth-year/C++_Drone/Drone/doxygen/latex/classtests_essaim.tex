@@ -1,0 +1,58 @@
+\hypertarget{classtests_essaim}{}\section{Référence de la classe tests\+Essaim}
+\label{classtests_essaim}\index{tests\+Essaim@{tests\+Essaim}}
+
+
+{\ttfamily \#include $<$tests\+Essaim.\+h$>$}
+
+Graphe d\textquotesingle{}héritage de tests\+Essaim\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classtests_essaim}
+\end{center}
+\end{figure}
+\subsection*{Fonctions membres publiques}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classtests_essaim_a11f3fd6586834e4fda0f7e2957e6f85d}\label{classtests_essaim_a11f3fd6586834e4fda0f7e2957e6f85d}} 
+void {\bfseries set\+Up} (void)
+\item 
+\mbox{\Hypertarget{classtests_essaim_aeffed1c0f08751a477df994ba6e7dd48}\label{classtests_essaim_aeffed1c0f08751a477df994ba6e7dd48}} 
+void {\bfseries tear\+Down} (void)
+\end{DoxyCompactItemize}
+\subsection*{Fonctions membres protégées}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classtests_essaim_aecfe81de4a26fe35f16cfe73db6dd298}\label{classtests_essaim_aecfe81de4a26fe35f16cfe73db6dd298}} 
+void {\bfseries test\+Ajouter\+Drone} ()
+\item 
+void \mbox{\hyperlink{classtests_essaim_ac6af8267d8e85120a6b1e5b66b247f5b}{test\+Retirer\+Colis}} ()
+\item 
+void \mbox{\hyperlink{classtests_essaim_a602aca58210132a947410123c130665e}{test\+Affectation\+Drone\+Pos}} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Description détaillée}
+classe de test pour la classe \mbox{\hyperlink{class_essaim}{Essaim}} \begin{DoxyAuthor}{Auteur}
+Simon 
+\end{DoxyAuthor}
+
+
+\subsection{Documentation des fonctions membres}
+\mbox{\Hypertarget{classtests_essaim_a602aca58210132a947410123c130665e}\label{classtests_essaim_a602aca58210132a947410123c130665e}} 
+\index{tests\+Essaim@{tests\+Essaim}!test\+Affectation\+Drone\+Pos@{test\+Affectation\+Drone\+Pos}}
+\index{test\+Affectation\+Drone\+Pos@{test\+Affectation\+Drone\+Pos}!tests\+Essaim@{tests\+Essaim}}
+\subsubsection{\texorpdfstring{test\+Affectation\+Drone\+Pos()}{testAffectationDronePos()}}
+{\footnotesize\ttfamily void tests\+Essaim\+::test\+Affectation\+Drone\+Pos (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Appelle la fonction et vérifie si le bon \mbox{\hyperlink{class_drone}{Drone}} est bien dans la liste \mbox{\Hypertarget{classtests_essaim_ac6af8267d8e85120a6b1e5b66b247f5b}\label{classtests_essaim_ac6af8267d8e85120a6b1e5b66b247f5b}} 
+\index{tests\+Essaim@{tests\+Essaim}!test\+Retirer\+Colis@{test\+Retirer\+Colis}}
+\index{test\+Retirer\+Colis@{test\+Retirer\+Colis}!tests\+Essaim@{tests\+Essaim}}
+\subsubsection{\texorpdfstring{test\+Retirer\+Colis()}{testRetirerColis()}}
+{\footnotesize\ttfamily void tests\+Essaim\+::test\+Retirer\+Colis (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+teste si la m�thode affecter\+Drone\+Pos affecte au drone le noeud du maillage le plus proche de sa position C\textquotesingle{}est une m�thode fastidieuse � tester. On va tester un exemple simple. Etant donn� 8 noeuds issus d\textquotesingle{}un maillage d\textquotesingle{}une formation cubique, on cr�� 8 drones l�g�rement d�cal� au 8 sommets. On v�rifie que chaque drone a comme objectif d\textquotesingle{}aller au sommet � cot� de lui. teste la m�thode retirer colis. On va faire apparaitre un colis a un endroit et on v�rifie que le drone le plus proche a bien re�u l\textquotesingle{}ordre de s\textquotesingle{}y rendre. Pour cela on regarde que les points de retrait et d�pose ont �t� ajout� � la liste des objectifs du drone le plus proche. 
+
+La documentation de cette classe a été générée à partir des fichiers suivants \+:\begin{DoxyCompactItemize}
+\item 
+tests\+Essaim.\+h\item 
+tests\+Essaim.\+cpp\end{DoxyCompactItemize}

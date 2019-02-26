@@ -1,0 +1,84 @@
+\hypertarget{class_essaim}{}\section{Référence de la classe Essaim}
+\label{class_essaim}\index{Essaim@{Essaim}}
+
+
+{\ttfamily \#include $<$Essaim.\+h$>$}
+
+\subsection*{Fonctions membres publiques}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_essaim_a054ed8782a5d32914b820e635a0a1fdc}{Essaim}} ()
+\item 
+\mbox{\hyperlink{class_essaim_a1b2112a27d547ae2e19d75166b396886}{Essaim}} (\mbox{\hyperlink{class_environnement}{Environnement}} \&env, int nb\+Drones)
+\item 
+void \mbox{\hyperlink{class_essaim_a6e5a1427a3bdd7b7c7a29f07b54a5ae7}{retirer\+Colis}} (\mbox{\hyperlink{class_vecteur_r3}{Vecteur\+R3}} retrait, \mbox{\hyperlink{class_vecteur_r3}{Vecteur\+R3}} depot)
+\item 
+void \mbox{\hyperlink{class_essaim_acca17cbaea8479e9a6e1809e09bf913a}{formation}} (\mbox{\hyperlink{class_formation}{Formation}} \&F)
+\item 
+void \mbox{\hyperlink{class_essaim_a267e5067cbc6f33f3fa2b7e4e4a742a9}{ajouter\+Drone}} (\mbox{\hyperlink{class_drone}{Drone}} \&)
+\item 
+std\+::vector$<$ \mbox{\hyperlink{class_drone}{Drone}} $\ast$ $>$ \mbox{\hyperlink{class_essaim_a3910964b67c78a6897a723f9ed2972aa}{get\+V\+Drones}} () const
+\end{DoxyCompactItemize}
+
+
+\subsection{Description détaillée}
+La classe \mbox{\hyperlink{class_essaim}{Essaim}} est celle qui contient l\textquotesingle{}ensemble des drones Elle a pour objectif de contrôler leurs objectifs (Attribution des colis aux drones, formations, ...)
+
+\begin{DoxyAuthor}{Auteurs}
+Timothé, Simon 
+\end{DoxyAuthor}
+
+
+\subsection{Documentation des constructeurs et destructeur}
+\mbox{\Hypertarget{class_essaim_a054ed8782a5d32914b820e635a0a1fdc}\label{class_essaim_a054ed8782a5d32914b820e635a0a1fdc}} 
+\index{Essaim@{Essaim}!Essaim@{Essaim}}
+\index{Essaim@{Essaim}!Essaim@{Essaim}}
+\subsubsection{\texorpdfstring{Essaim()}{Essaim()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Essaim\+::\+Essaim (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Constructeur vide \mbox{\Hypertarget{class_essaim_a1b2112a27d547ae2e19d75166b396886}\label{class_essaim_a1b2112a27d547ae2e19d75166b396886}} 
+\index{Essaim@{Essaim}!Essaim@{Essaim}}
+\index{Essaim@{Essaim}!Essaim@{Essaim}}
+\subsubsection{\texorpdfstring{Essaim()}{Essaim()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Essaim\+::\+Essaim (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_environnement}{Environnement}} \&}]{env,  }\item[{int}]{nb\+Drones }\end{DoxyParamCaption})}
+
+Constructeur principal (utilisé dans le main de l\textquotesingle{}application) prenant l\textquotesingle{}\mbox{\hyperlink{class_environnement}{Environnement}} et le nombre de Drones 
+
+\subsection{Documentation des fonctions membres}
+\mbox{\Hypertarget{class_essaim_a267e5067cbc6f33f3fa2b7e4e4a742a9}\label{class_essaim_a267e5067cbc6f33f3fa2b7e4e4a742a9}} 
+\index{Essaim@{Essaim}!ajouter\+Drone@{ajouter\+Drone}}
+\index{ajouter\+Drone@{ajouter\+Drone}!Essaim@{Essaim}}
+\subsubsection{\texorpdfstring{ajouter\+Drone()}{ajouterDrone()}}
+{\footnotesize\ttfamily void Essaim\+::ajouter\+Drone (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_drone}{Drone}} \&}]{drone }\end{DoxyParamCaption})}
+
+Ajoute un drone à l\textquotesingle{}essaim (dans le vector de drone) \mbox{\Hypertarget{class_essaim_acca17cbaea8479e9a6e1809e09bf913a}\label{class_essaim_acca17cbaea8479e9a6e1809e09bf913a}} 
+\index{Essaim@{Essaim}!formation@{formation}}
+\index{formation@{formation}!Essaim@{Essaim}}
+\subsubsection{\texorpdfstring{formation()}{formation()}}
+{\footnotesize\ttfamily void Essaim\+::formation (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_formation}{Formation}} \&}]{F }\end{DoxyParamCaption})}
+
+Ordre aux drones de l\textquotesingle{}essaim de réaliser une formation \mbox{\Hypertarget{class_essaim_a3910964b67c78a6897a723f9ed2972aa}\label{class_essaim_a3910964b67c78a6897a723f9ed2972aa}} 
+\index{Essaim@{Essaim}!get\+V\+Drones@{get\+V\+Drones}}
+\index{get\+V\+Drones@{get\+V\+Drones}!Essaim@{Essaim}}
+\subsubsection{\texorpdfstring{get\+V\+Drones()}{getVDrones()}}
+{\footnotesize\ttfamily vector$<$ \mbox{\hyperlink{class_drone}{Drone}} $\ast$ $>$ Essaim\+::get\+V\+Drones (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+getter du vector de \mbox{\hyperlink{class_drone}{Drone}} \mbox{\Hypertarget{class_essaim_a6e5a1427a3bdd7b7c7a29f07b54a5ae7}\label{class_essaim_a6e5a1427a3bdd7b7c7a29f07b54a5ae7}} 
+\index{Essaim@{Essaim}!retirer\+Colis@{retirer\+Colis}}
+\index{retirer\+Colis@{retirer\+Colis}!Essaim@{Essaim}}
+\subsubsection{\texorpdfstring{retirer\+Colis()}{retirerColis()}}
+{\footnotesize\ttfamily void Essaim\+::retirer\+Colis (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_vecteur_r3}{Vecteur\+R3}}}]{retrait,  }\item[{\mbox{\hyperlink{class_vecteur_r3}{Vecteur\+R3}}}]{depot }\end{DoxyParamCaption})}
+
+Ordre d\textquotesingle{}aller retirer un colis. Le drone qui doit aller le colis au point B est determiné dans le corps de la fonction et non passé en entrée 
+\begin{DoxyParams}{Paramètres}
+{\em retrait} & point de retrait du colis \\
+\hline
+{\em depot} & lieu où déposer le colis \\
+\hline
+\end{DoxyParams}
+
+
+La documentation de cette classe a été générée à partir des fichiers suivants \+:\begin{DoxyCompactItemize}
+\item 
+Essaim.\+h\item 
+Essaim.\+cpp\end{DoxyCompactItemize}

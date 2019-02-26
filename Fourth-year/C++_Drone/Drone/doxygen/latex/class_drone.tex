@@ -1,0 +1,210 @@
+\hypertarget{class_drone}{}\section{Référence de la classe Drone}
+\label{class_drone}\index{Drone@{Drone}}
+
+
+{\ttfamily \#include $<$Drone.\+h$>$}
+
+\subsection*{Fonctions membres publiques}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_drone_a61e6934c19d51cecd69274b0c2f8f074}{Drone}} (const \mbox{\hyperlink{class_vecteur_r3}{Vecteur\+R3}})
+\item 
+\mbox{\hyperlink{class_drone_a1065b6a37230163bcd1b463c7a5121f7}{Drone}} (const float, const \mbox{\hyperlink{class_vecteur_r3}{Vecteur\+R3}}, const std\+::vector$<$ \mbox{\hyperlink{class_capteur}{Capteur}} $>$ \&)
+\item 
+\mbox{\hyperlink{class_drone_a11bd93fb5dccd88050ca2f89ab45617e}{Drone}} (const float rayon, \mbox{\hyperlink{class_vecteur_r3}{Vecteur\+R3}} pos, std\+::vector$<$ \mbox{\hyperlink{class_capteur}{Capteur}} $>$ v\+Cap, const \mbox{\hyperlink{class_vecteur_r3}{Vecteur\+R3}} \+\_\+gravite, \mbox{\hyperlink{class_vecteur_r3}{Vecteur\+R3}} vit=\mbox{\hyperlink{class_vecteur_r3}{Vecteur\+R3}}())
+\item 
+\mbox{\Hypertarget{class_drone_a0403556305197eda99c2f7305c03b7ac}\label{class_drone_a0403556305197eda99c2f7305c03b7ac}} 
+\mbox{\hyperlink{class_drone}{Drone}} {\bfseries operator++} (int)
+\item 
+virtual \mbox{\hyperlink{class_drone_a667075abb1eb5c54be6418884a387d14}{$\sim$\+Drone}} ()
+\item 
+\mbox{\hyperlink{class_vecteur_r3}{Vecteur\+R3}} \mbox{\hyperlink{class_drone_ad8d5dda09c0e45c8d2c0f1f26a840f0e}{get\+Premier\+Objectif}} () const
+\item 
+std\+::queue$<$ \mbox{\hyperlink{class_vecteur_r3}{Vecteur\+R3}} $>$ \mbox{\hyperlink{class_drone_a11c5ec4c9211f217b2f0b11f46a1e627}{get\+V\+Objectifs}} () const
+\item 
+std\+::vector$<$ \mbox{\hyperlink{class_capteur}{Capteur}} $>$ \mbox{\hyperlink{class_drone_a0fb2eb8aa87f70b8f6d251f7b28feea4}{get\+V\+Capteurs}} () const
+\item 
+\mbox{\hyperlink{class_vecteur_r3}{Vecteur\+R3}} \mbox{\hyperlink{class_drone_a54d473991206bba12c44e5425779793e}{get\+Position}} () const
+\item 
+\mbox{\hyperlink{class_vecteur_r3}{Vecteur\+R3}} \mbox{\hyperlink{class_drone_a4b6a219813286c95545bccdf061a5f48}{get\+Vitesse}} () const
+\item 
+\mbox{\hyperlink{class_vecteur_r3}{Vecteur\+R3}} \mbox{\hyperlink{class_drone_a87ea8e6f37a123251b59ad936e51d4ad}{get\+Acceleration}} () const
+\item 
+void \mbox{\hyperlink{class_drone_a6a379b028a7c5b48bac16966fef5e1a4}{set\+Position}} (const \mbox{\hyperlink{class_vecteur_r3}{Vecteur\+R3}})
+\item 
+void \mbox{\hyperlink{class_drone_a63d698e315ebab5f36dd74447259828f}{set\+Vitesse}} (const \mbox{\hyperlink{class_vecteur_r3}{Vecteur\+R3}})
+\item 
+void \mbox{\hyperlink{class_drone_a75aaefd8ca47db757ad38a10482aa042}{set\+Acceleration}} (const \mbox{\hyperlink{class_vecteur_r3}{Vecteur\+R3}} \&)
+\item 
+float \mbox{\hyperlink{class_drone_a03a089698c78f9f4dedc51b5dc7099c3}{get\+Rayon}} () const
+\item 
+void \mbox{\hyperlink{class_drone_a0e15629285db6c6c9f1b21ce138bf6ec}{ne\+Fonctionne\+Plus}} ()
+\item 
+bool \mbox{\hyperlink{class_drone_a6df0c61c5aa61884d87365696f33affd}{est\+Fonctionnel}} () const
+\item 
+bool \mbox{\hyperlink{class_drone_a42c8991a71af54828612cba245b84063}{a\+Objectif}} () const
+\item 
+bool \mbox{\hyperlink{class_drone_a4e2e166a9a0c5732e789d08c6cda56d1}{atteint\+Objectif}} ()
+\item 
+bool \mbox{\hyperlink{class_drone_aaa8aa9eedb05b4c46bd92e88d5f14441}{porte\+Un\+Colis}} () const
+\item 
+void \mbox{\hyperlink{class_drone_aec517cb61a036852752219bad4e732c1}{ajouter\+Objectif}} (const \mbox{\hyperlink{class_vecteur_r3}{Vecteur\+R3}} \&obj)
+\item 
+void \mbox{\hyperlink{class_drone_ae7249a3f0c054e2c1beb6ea522774029}{livrer\+Colis}} (const \mbox{\hyperlink{class_vecteur_r3}{Vecteur\+R3}} \&retrait, const \mbox{\hyperlink{class_vecteur_r3}{Vecteur\+R3}} \&depot)
+\end{DoxyCompactItemize}
+
+
+\subsection{Description détaillée}
+Agent du réseau qui a pour principale fonctionnalité de pouvoir se rendre d\textquotesingle{}un point à un autre, en suivant liste d\textquotesingle{}objectifs. Il se déplace en se donnant un vecteur accélération, qui donnera sa vitesse et position en temps t+1 via la classe \mbox{\hyperlink{class_environnement}{Environnement}}. \begin{DoxyAuthor}{Auteur}
+Louis, Quentin 
+\end{DoxyAuthor}
+
+
+\subsection{Documentation des constructeurs et destructeur}
+\mbox{\Hypertarget{class_drone_a61e6934c19d51cecd69274b0c2f8f074}\label{class_drone_a61e6934c19d51cecd69274b0c2f8f074}} 
+\index{Drone@{Drone}!Drone@{Drone}}
+\index{Drone@{Drone}!Drone@{Drone}}
+\subsubsection{\texorpdfstring{Drone()}{Drone()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
+{\footnotesize\ttfamily Drone\+::\+Drone (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_vecteur_r3}{Vecteur\+R3}}}]{pos }\end{DoxyParamCaption})}
+
+Constructeur de \mbox{\hyperlink{class_drone}{Drone}} pour tests, avec position \mbox{\Hypertarget{class_drone_a1065b6a37230163bcd1b463c7a5121f7}\label{class_drone_a1065b6a37230163bcd1b463c7a5121f7}} 
+\index{Drone@{Drone}!Drone@{Drone}}
+\index{Drone@{Drone}!Drone@{Drone}}
+\subsubsection{\texorpdfstring{Drone()}{Drone()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily Drone\+::\+Drone (\begin{DoxyParamCaption}\item[{const float}]{rayon\+Drone,  }\item[{const \mbox{\hyperlink{class_vecteur_r3}{Vecteur\+R3}}}]{pos,  }\item[{const std\+::vector$<$ \mbox{\hyperlink{class_capteur}{Capteur}} $>$ \&}]{v\+Cap }\end{DoxyParamCaption})}
+
+Constructeur de test des Capteurs \mbox{\Hypertarget{class_drone_a11bd93fb5dccd88050ca2f89ab45617e}\label{class_drone_a11bd93fb5dccd88050ca2f89ab45617e}} 
+\index{Drone@{Drone}!Drone@{Drone}}
+\index{Drone@{Drone}!Drone@{Drone}}
+\subsubsection{\texorpdfstring{Drone()}{Drone()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily Drone\+::\+Drone (\begin{DoxyParamCaption}\item[{const float}]{rayon,  }\item[{\mbox{\hyperlink{class_vecteur_r3}{Vecteur\+R3}}}]{pos,  }\item[{std\+::vector$<$ \mbox{\hyperlink{class_capteur}{Capteur}} $>$}]{v\+Cap,  }\item[{const \mbox{\hyperlink{class_vecteur_r3}{Vecteur\+R3}}}]{\+\_\+gravite,  }\item[{\mbox{\hyperlink{class_vecteur_r3}{Vecteur\+R3}}}]{vit = {\ttfamily \mbox{\hyperlink{class_vecteur_r3}{Vecteur\+R3}}()} }\end{DoxyParamCaption})}
+
+Constructeur effectif de \mbox{\hyperlink{class_drone}{Drone}}. Prend une position et (éventuellement) vitesse initiales, un rayon et un vecteur de Capteurs. \mbox{\Hypertarget{class_drone_a667075abb1eb5c54be6418884a387d14}\label{class_drone_a667075abb1eb5c54be6418884a387d14}} 
+\index{Drone@{Drone}!````~Drone@{$\sim$\+Drone}}
+\index{````~Drone@{$\sim$\+Drone}!Drone@{Drone}}
+\subsubsection{\texorpdfstring{$\sim$\+Drone()}{~Drone()}}
+{\footnotesize\ttfamily Drone\+::$\sim$\+Drone (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Destructeur de \mbox{\hyperlink{class_drone}{Drone}}. 
+
+\subsection{Documentation des fonctions membres}
+\mbox{\Hypertarget{class_drone_aec517cb61a036852752219bad4e732c1}\label{class_drone_aec517cb61a036852752219bad4e732c1}} 
+\index{Drone@{Drone}!ajouter\+Objectif@{ajouter\+Objectif}}
+\index{ajouter\+Objectif@{ajouter\+Objectif}!Drone@{Drone}}
+\subsubsection{\texorpdfstring{ajouter\+Objectif()}{ajouterObjectif()}}
+{\footnotesize\ttfamily void Drone\+::ajouter\+Objectif (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_vecteur_r3}{Vecteur\+R3}} \&}]{obj }\end{DoxyParamCaption})}
+
+Méthode qui ajoute une destination à la liste des objectifs. 
+\begin{DoxyParams}{Paramètres}
+{\em obj} & le point de R3 à ajouter à la liste d\textquotesingle{}objectifs. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_drone_a42c8991a71af54828612cba245b84063}\label{class_drone_a42c8991a71af54828612cba245b84063}} 
+\index{Drone@{Drone}!a\+Objectif@{a\+Objectif}}
+\index{a\+Objectif@{a\+Objectif}!Drone@{Drone}}
+\subsubsection{\texorpdfstring{a\+Objectif()}{aObjectif()}}
+{\footnotesize\ttfamily bool Drone\+::a\+Objectif (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Fonction qui indique si le drone a au moins un objectif (liste non nulle) \mbox{\Hypertarget{class_drone_a4e2e166a9a0c5732e789d08c6cda56d1}\label{class_drone_a4e2e166a9a0c5732e789d08c6cda56d1}} 
+\index{Drone@{Drone}!atteint\+Objectif@{atteint\+Objectif}}
+\index{atteint\+Objectif@{atteint\+Objectif}!Drone@{Drone}}
+\subsubsection{\texorpdfstring{atteint\+Objectif()}{atteintObjectif()}}
+{\footnotesize\ttfamily bool Drone\+::atteint\+Objectif (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Teste si le drone a atteint son objectif. Le cas échéant, l\textquotesingle{}objectif est supprimé de la liste. \mbox{\Hypertarget{class_drone_a6df0c61c5aa61884d87365696f33affd}\label{class_drone_a6df0c61c5aa61884d87365696f33affd}} 
+\index{Drone@{Drone}!est\+Fonctionnel@{est\+Fonctionnel}}
+\index{est\+Fonctionnel@{est\+Fonctionnel}!Drone@{Drone}}
+\subsubsection{\texorpdfstring{est\+Fonctionnel()}{estFonctionnel()}}
+{\footnotesize\ttfamily bool Drone\+::est\+Fonctionnel (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Getter sur l\textquotesingle{}état du drone \mbox{\Hypertarget{class_drone_a87ea8e6f37a123251b59ad936e51d4ad}\label{class_drone_a87ea8e6f37a123251b59ad936e51d4ad}} 
+\index{Drone@{Drone}!get\+Acceleration@{get\+Acceleration}}
+\index{get\+Acceleration@{get\+Acceleration}!Drone@{Drone}}
+\subsubsection{\texorpdfstring{get\+Acceleration()}{getAcceleration()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_vecteur_r3}{Vecteur\+R3}} Drone\+::get\+Acceleration (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Getter du vecteur acceleration \mbox{\Hypertarget{class_drone_a54d473991206bba12c44e5425779793e}\label{class_drone_a54d473991206bba12c44e5425779793e}} 
+\index{Drone@{Drone}!get\+Position@{get\+Position}}
+\index{get\+Position@{get\+Position}!Drone@{Drone}}
+\subsubsection{\texorpdfstring{get\+Position()}{getPosition()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_vecteur_r3}{Vecteur\+R3}} Drone\+::get\+Position (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Getter du vecteur position \mbox{\Hypertarget{class_drone_ad8d5dda09c0e45c8d2c0f1f26a840f0e}\label{class_drone_ad8d5dda09c0e45c8d2c0f1f26a840f0e}} 
+\index{Drone@{Drone}!get\+Premier\+Objectif@{get\+Premier\+Objectif}}
+\index{get\+Premier\+Objectif@{get\+Premier\+Objectif}!Drone@{Drone}}
+\subsubsection{\texorpdfstring{get\+Premier\+Objectif()}{getPremierObjectif()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_vecteur_r3}{Vecteur\+R3}} Drone\+::get\+Premier\+Objectif (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Getter du premier objectif du \mbox{\hyperlink{class_drone}{Drone}} \mbox{\Hypertarget{class_drone_a03a089698c78f9f4dedc51b5dc7099c3}\label{class_drone_a03a089698c78f9f4dedc51b5dc7099c3}} 
+\index{Drone@{Drone}!get\+Rayon@{get\+Rayon}}
+\index{get\+Rayon@{get\+Rayon}!Drone@{Drone}}
+\subsubsection{\texorpdfstring{get\+Rayon()}{getRayon()}}
+{\footnotesize\ttfamily float Drone\+::get\+Rayon (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Getter du rayon du \mbox{\hyperlink{class_drone}{Drone}} \mbox{\Hypertarget{class_drone_a0fb2eb8aa87f70b8f6d251f7b28feea4}\label{class_drone_a0fb2eb8aa87f70b8f6d251f7b28feea4}} 
+\index{Drone@{Drone}!get\+V\+Capteurs@{get\+V\+Capteurs}}
+\index{get\+V\+Capteurs@{get\+V\+Capteurs}!Drone@{Drone}}
+\subsubsection{\texorpdfstring{get\+V\+Capteurs()}{getVCapteurs()}}
+{\footnotesize\ttfamily std\+::vector$<$ \mbox{\hyperlink{class_capteur}{Capteur}} $>$ Drone\+::get\+V\+Capteurs (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Getter du vecteur de capteurs \mbox{\Hypertarget{class_drone_a4b6a219813286c95545bccdf061a5f48}\label{class_drone_a4b6a219813286c95545bccdf061a5f48}} 
+\index{Drone@{Drone}!get\+Vitesse@{get\+Vitesse}}
+\index{get\+Vitesse@{get\+Vitesse}!Drone@{Drone}}
+\subsubsection{\texorpdfstring{get\+Vitesse()}{getVitesse()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_vecteur_r3}{Vecteur\+R3}} Drone\+::get\+Vitesse (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Getter du vecteur vitesse \mbox{\Hypertarget{class_drone_a11c5ec4c9211f217b2f0b11f46a1e627}\label{class_drone_a11c5ec4c9211f217b2f0b11f46a1e627}} 
+\index{Drone@{Drone}!get\+V\+Objectifs@{get\+V\+Objectifs}}
+\index{get\+V\+Objectifs@{get\+V\+Objectifs}!Drone@{Drone}}
+\subsubsection{\texorpdfstring{get\+V\+Objectifs()}{getVObjectifs()}}
+{\footnotesize\ttfamily std\+::queue$<$ \mbox{\hyperlink{class_vecteur_r3}{Vecteur\+R3}} $>$ Drone\+::get\+V\+Objectifs (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Getter des objectifs du \mbox{\hyperlink{class_drone}{Drone}} \mbox{\Hypertarget{class_drone_ae7249a3f0c054e2c1beb6ea522774029}\label{class_drone_ae7249a3f0c054e2c1beb6ea522774029}} 
+\index{Drone@{Drone}!livrer\+Colis@{livrer\+Colis}}
+\index{livrer\+Colis@{livrer\+Colis}!Drone@{Drone}}
+\subsubsection{\texorpdfstring{livrer\+Colis()}{livrerColis()}}
+{\footnotesize\ttfamily void Drone\+::livrer\+Colis (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_vecteur_r3}{Vecteur\+R3}} \&}]{retrait,  }\item[{const \mbox{\hyperlink{class_vecteur_r3}{Vecteur\+R3}} \&}]{depot }\end{DoxyParamCaption})}
+
+Ajoute à liste des objectifs le point de retrait et de dépôt du colis. 
+\begin{DoxyParams}{Paramètres}
+{\em retrait} & Le point auquel récupérer le colis. \\
+\hline
+{\em depot} & Le point auquel déposer le colis. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_drone_a0e15629285db6c6c9f1b21ce138bf6ec}\label{class_drone_a0e15629285db6c6c9f1b21ce138bf6ec}} 
+\index{Drone@{Drone}!ne\+Fonctionne\+Plus@{ne\+Fonctionne\+Plus}}
+\index{ne\+Fonctionne\+Plus@{ne\+Fonctionne\+Plus}!Drone@{Drone}}
+\subsubsection{\texorpdfstring{ne\+Fonctionne\+Plus()}{neFonctionnePlus()}}
+{\footnotesize\ttfamily void Drone\+::ne\+Fonctionne\+Plus (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+affecte au bool \textquotesingle{}fonctionne\textquotesingle{} la valeur false. \mbox{\Hypertarget{class_drone_aaa8aa9eedb05b4c46bd92e88d5f14441}\label{class_drone_aaa8aa9eedb05b4c46bd92e88d5f14441}} 
+\index{Drone@{Drone}!porte\+Un\+Colis@{porte\+Un\+Colis}}
+\index{porte\+Un\+Colis@{porte\+Un\+Colis}!Drone@{Drone}}
+\subsubsection{\texorpdfstring{porte\+Un\+Colis()}{porteUnColis()}}
+{\footnotesize\ttfamily bool Drone\+::porte\+Un\+Colis (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+getter porte\+Colis \mbox{\Hypertarget{class_drone_a75aaefd8ca47db757ad38a10482aa042}\label{class_drone_a75aaefd8ca47db757ad38a10482aa042}} 
+\index{Drone@{Drone}!set\+Acceleration@{set\+Acceleration}}
+\index{set\+Acceleration@{set\+Acceleration}!Drone@{Drone}}
+\subsubsection{\texorpdfstring{set\+Acceleration()}{setAcceleration()}}
+{\footnotesize\ttfamily void Drone\+::set\+Acceleration (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_vecteur_r3}{Vecteur\+R3}} \&}]{\+\_\+acc }\end{DoxyParamCaption})}
+
+Setter du vecteur acceleration \mbox{\Hypertarget{class_drone_a6a379b028a7c5b48bac16966fef5e1a4}\label{class_drone_a6a379b028a7c5b48bac16966fef5e1a4}} 
+\index{Drone@{Drone}!set\+Position@{set\+Position}}
+\index{set\+Position@{set\+Position}!Drone@{Drone}}
+\subsubsection{\texorpdfstring{set\+Position()}{setPosition()}}
+{\footnotesize\ttfamily void Drone\+::set\+Position (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_vecteur_r3}{Vecteur\+R3}}}]{nvll\+Pos }\end{DoxyParamCaption})}
+
+Setter du vecteur position \mbox{\Hypertarget{class_drone_a63d698e315ebab5f36dd74447259828f}\label{class_drone_a63d698e315ebab5f36dd74447259828f}} 
+\index{Drone@{Drone}!set\+Vitesse@{set\+Vitesse}}
+\index{set\+Vitesse@{set\+Vitesse}!Drone@{Drone}}
+\subsubsection{\texorpdfstring{set\+Vitesse()}{setVitesse()}}
+{\footnotesize\ttfamily void Drone\+::set\+Vitesse (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_vecteur_r3}{Vecteur\+R3}}}]{nvll\+Vit }\end{DoxyParamCaption})}
+
+Setter du vecteur vitesse 
+
+La documentation de cette classe a été générée à partir des fichiers suivants \+:\begin{DoxyCompactItemize}
+\item 
+Drone.\+h\item 
+Drone.\+cpp\end{DoxyCompactItemize}

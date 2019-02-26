@@ -1,0 +1,56 @@
+\hypertarget{class_affichage}{}\section{Référence de la classe Affichage}
+\label{class_affichage}\index{Affichage@{Affichage}}
+
+
+{\ttfamily \#include $<$Affichage.\+h$>$}
+
+\subsection*{Fonctions membres publiques}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_affichage_a1e4cd468a67bff4ddc15d3d245188651}{Affichage}} (\mbox{\hyperlink{class_environnement}{Environnement}} $\ast$env)
+\item 
+virtual \mbox{\hyperlink{class_affichage_ae6a4f4db7a0d8d2abc8bd44c1be674c0}{$\sim$\+Affichage}} ()
+\item 
+void \mbox{\hyperlink{class_affichage_af90570851774c1f36d53ed10fb016f47}{draw}} (\mbox{\hyperlink{class_track_ball_camera}{Track\+Ball\+Camera}} $\ast$, G\+Luint)
+\end{DoxyCompactItemize}
+
+
+\subsection{Description détaillée}
+Classe qui permet d\textquotesingle{}afficher en 3D l\textquotesingle{}\mbox{\hyperlink{class_environnement}{Environnement}}. Cela inclut principalement les Drones et les Obstacles. Utilise open\+GL et S\+DL \begin{DoxyAuthor}{Auteurs}
+Timothé, Simon 
+\end{DoxyAuthor}
+
+
+\subsection{Documentation des constructeurs et destructeur}
+\mbox{\Hypertarget{class_affichage_a1e4cd468a67bff4ddc15d3d245188651}\label{class_affichage_a1e4cd468a67bff4ddc15d3d245188651}} 
+\index{Affichage@{Affichage}!Affichage@{Affichage}}
+\index{Affichage@{Affichage}!Affichage@{Affichage}}
+\subsubsection{\texorpdfstring{Affichage()}{Affichage()}}
+{\footnotesize\ttfamily Affichage\+::\+Affichage (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_environnement}{Environnement}} $\ast$}]{env }\end{DoxyParamCaption})}
+
+Un constructeur utilisant un environnement pour s\textquotesingle{}y lier par pointeur. initialise aussi la texture des drones directement par une valeur donnée dans le constructeur. 
+\begin{DoxyParams}{Paramètres}
+{\em env} & l\textquotesingle{}\mbox{\hyperlink{class_environnement}{Environnement}} vers lequel pointer; sur lequel \mbox{\hyperlink{class_affichage}{Affichage}} devra faire son travail. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_affichage_ae6a4f4db7a0d8d2abc8bd44c1be674c0}\label{class_affichage_ae6a4f4db7a0d8d2abc8bd44c1be674c0}} 
+\index{Affichage@{Affichage}!````~Affichage@{$\sim$\+Affichage}}
+\index{````~Affichage@{$\sim$\+Affichage}!Affichage@{Affichage}}
+\subsubsection{\texorpdfstring{$\sim$\+Affichage()}{~Affichage()}}
+{\footnotesize\ttfamily Affichage\+::$\sim$\+Affichage (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Simple Destructeur de l\textquotesingle{}\mbox{\hyperlink{class_affichage}{Affichage}}. 
+
+\subsection{Documentation des fonctions membres}
+\mbox{\Hypertarget{class_affichage_af90570851774c1f36d53ed10fb016f47}\label{class_affichage_af90570851774c1f36d53ed10fb016f47}} 
+\index{Affichage@{Affichage}!draw@{draw}}
+\index{draw@{draw}!Affichage@{Affichage}}
+\subsubsection{\texorpdfstring{draw()}{draw()}}
+{\footnotesize\ttfamily void Affichage\+::draw (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_track_ball_camera}{Track\+Ball\+Camera}} $\ast$}]{camera,  }\item[{G\+Luint}]{drone\+Text }\end{DoxyParamCaption})}
+
+Méthode principale, affichant l\textquotesingle{}\mbox{\hyperlink{class_environnement}{Environnement}} en attribut 
+
+La documentation de cette classe a été générée à partir des fichiers suivants \+:\begin{DoxyCompactItemize}
+\item 
+Affichage.\+h\item 
+Affichage.\+cpp\end{DoxyCompactItemize}

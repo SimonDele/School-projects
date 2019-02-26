@@ -1,0 +1,14 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	0	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ENVIRONNEMENT_H	/home/louis/Dropbox/GM4/Projets/C++/Drones/include/Environnement.h	/^#define ENVIRONNEMENT_H$/;"	macro	line:2
+Environnement	/home/louis/Dropbox/GM4/Projets/C++/Drones/include/Environnement.h	/^class Environnement {$/;"	class	line:19
+origineEnv	/home/louis/Dropbox/GM4/Projets/C++/Drones/include/Environnement.h	/^        VecteurR3 origineEnv;$/;"	member	line:22	class:Environnement
+cote	/home/louis/Dropbox/GM4/Projets/C++/Drones/include/Environnement.h	/^        float cote;$/;"	member	line:24	class:Environnement
+vObstacles	/home/louis/Dropbox/GM4/Projets/C++/Drones/include/Environnement.h	/^        std::vector<Obstacle> vObstacles;$/;"	member	line:26	class:Environnement
+essaim	/home/louis/Dropbox/GM4/Projets/C++/Drones/include/Environnement.h	/^        Essaim essaim;$/;"	member	line:29	class:Environnement
+g	/home/louis/Dropbox/GM4/Projets/C++/Drones/include/Environnement.h	/^        float g;$/;"	member	line:32	class:Environnement
+vColis	/home/louis/Dropbox/GM4/Projets/C++/Drones/include/Environnement.h	/^        std::vector<VecteurR3> vColis;$/;"	member	line:34	class:Environnement

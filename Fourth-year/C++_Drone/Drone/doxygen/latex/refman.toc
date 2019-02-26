@@ -1,0 +1,184 @@
+\select@language {french}
+\contentsline {chapter}{\numberline {1}Index hi\IeC {\'e}rarchique}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Hi\IeC {\'e}rarchie des classes}{1}{section.1.1}
+\contentsline {chapter}{\numberline {2}Index des classes}{3}{chapter.2}
+\contentsline {section}{\numberline {2.1}Liste des classes}{3}{section.2.1}
+\contentsline {chapter}{\numberline {3}Index des fichiers}{5}{chapter.3}
+\contentsline {section}{\numberline {3.1}Liste des fichiers}{5}{section.3.1}
+\contentsline {chapter}{\numberline {4}Documentation des classes}{7}{chapter.4}
+\contentsline {section}{\numberline {4.1}R\IeC {\'e}f\IeC {\'e}rence de la classe Affichage}{7}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Description d\IeC {\'e}taill\IeC {\'e}e}{7}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Documentation des constructeurs et destructeur}{7}{subsection.4.1.2}
+\contentsline {subsubsection}{\numberline {4.1.2.1}Affichage()}{7}{subsubsection.4.1.2.1}
+\contentsline {subsubsection}{\numberline {4.1.2.2}$\sim $\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Affichage()}{8}{subsubsection.4.1.2.2}
+\contentsline {subsection}{\numberline {4.1.3}Documentation des fonctions membres}{8}{subsection.4.1.3}
+\contentsline {subsubsection}{\numberline {4.1.3.1}draw()}{8}{subsubsection.4.1.3.1}
+\contentsline {section}{\numberline {4.2}R\IeC {\'e}f\IeC {\'e}rence de la classe Capteur}{8}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Description d\IeC {\'e}taill\IeC {\'e}e}{9}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Documentation des constructeurs et destructeur}{9}{subsection.4.2.2}
+\contentsline {subsubsection}{\numberline {4.2.2.1}Capteur()}{9}{subsubsection.4.2.2.1}
+\contentsline {subsubsection}{\numberline {4.2.2.2}$\sim $\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Capteur()}{9}{subsubsection.4.2.2.2}
+\contentsline {subsection}{\numberline {4.2.3}Documentation des fonctions membres}{9}{subsection.4.2.3}
+\contentsline {subsubsection}{\numberline {4.2.3.1}associer\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Info\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Drone()}{9}{subsubsection.4.2.3.1}
+\contentsline {subsubsection}{\numberline {4.2.3.2}detecte\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Q\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Qch()}{9}{subsubsection.4.2.3.2}
+\contentsline {subsubsection}{\numberline {4.2.3.3}get\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Direction()}{10}{subsubsection.4.2.3.3}
+\contentsline {subsubsection}{\numberline {4.2.3.4}get\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Distance\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Detectee()}{10}{subsubsection.4.2.3.4}
+\contentsline {subsubsection}{\numberline {4.2.3.5}get\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Portee()}{10}{subsubsection.4.2.3.5}
+\contentsline {subsubsection}{\numberline {4.2.3.6}update\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Distance\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Detectee()}{10}{subsubsection.4.2.3.6}
+\contentsline {section}{\numberline {4.3}R\IeC {\'e}f\IeC {\'e}rence de la classe Comportement}{10}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Description d\IeC {\'e}taill\IeC {\'e}e}{11}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Documentation des constructeurs et destructeur}{11}{subsection.4.3.2}
+\contentsline {subsubsection}{\numberline {4.3.2.1}Comportement()}{11}{subsubsection.4.3.2.1}
+\contentsline {subsubsection}{\numberline {4.3.2.2}$\sim $\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Comportement()}{11}{subsubsection.4.3.2.2}
+\contentsline {subsection}{\numberline {4.3.3}Documentation des fonctions membres}{11}{subsection.4.3.3}
+\contentsline {subsubsection}{\numberline {4.3.3.1}aller\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Point()}{11}{subsubsection.4.3.3.1}
+\contentsline {section}{\numberline {4.4}R\IeC {\'e}f\IeC {\'e}rence de la classe Cubique}{12}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}Description d\IeC {\'e}taill\IeC {\'e}e}{12}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.2}Documentation des constructeurs et destructeur}{12}{subsection.4.4.2}
+\contentsline {subsubsection}{\numberline {4.4.2.1}Cubique()}{13}{subsubsection.4.4.2.1}
+\contentsline {subsubsection}{\numberline {4.4.2.2}$\sim $\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Cubique()}{13}{subsubsection.4.4.2.2}
+\contentsline {subsection}{\numberline {4.4.3}Documentation des fonctions membres}{13}{subsection.4.4.3}
+\contentsline {subsubsection}{\numberline {4.4.3.1}generer\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Maillage()}{13}{subsubsection.4.4.3.1}
+\contentsline {subsection}{\numberline {4.4.4}Documentation des donn\IeC {\'e}es membres}{13}{subsection.4.4.4}
+\contentsline {subsubsection}{\numberline {4.4.4.1}longueur\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Cote}{13}{subsubsection.4.4.4.1}
+\contentsline {subsubsection}{\numberline {4.4.4.2}origine}{13}{subsubsection.4.4.4.2}
+\contentsline {section}{\numberline {4.5}R\IeC {\'e}f\IeC {\'e}rence de la classe Dlite}{14}{section.4.5}
+\contentsline {subsection}{\numberline {4.5.1}Description d\IeC {\'e}taill\IeC {\'e}e}{14}{subsection.4.5.1}
+\contentsline {subsection}{\numberline {4.5.2}Documentation des constructeurs et destructeur}{14}{subsection.4.5.2}
+\contentsline {subsubsection}{\numberline {4.5.2.1}Dlite()}{14}{subsubsection.4.5.2.1}
+\contentsline {subsubsection}{\numberline {4.5.2.2}$\sim $\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Dlite()}{14}{subsubsection.4.5.2.2}
+\contentsline {subsection}{\numberline {4.5.3}Documentation des fonctions membres}{14}{subsection.4.5.3}
+\contentsline {subsubsection}{\numberline {4.5.3.1}aller\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Point()}{14}{subsubsection.4.5.3.1}
+\contentsline {section}{\numberline {4.6}R\IeC {\'e}f\IeC {\'e}rence de la classe Drone}{15}{section.4.6}
+\contentsline {subsection}{\numberline {4.6.1}Description d\IeC {\'e}taill\IeC {\'e}e}{15}{subsection.4.6.1}
+\contentsline {subsection}{\numberline {4.6.2}Documentation des constructeurs et destructeur}{16}{subsection.4.6.2}
+\contentsline {subsubsection}{\numberline {4.6.2.1}Drone()\hspace {0.1cm}{\relax \fontsize {8}{9.5}\selectfont \abovedisplayskip 6\p@ plus2\p@ minus4\p@ \abovedisplayshortskip \z@ plus\p@ \belowdisplayshortskip 3\p@ plus\p@ minus2\p@ \def \leftmargin \leftmargini \parsep 4\p@ plus2\p@ minus\p@ \topsep 8\p@ plus2\p@ minus4\p@ \itemsep 4\p@ plus2\p@ minus\p@ {\leftmargin \leftmargini \topsep 3\p@ plus\p@ minus\p@ \parsep 2\p@ plus\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip \ttfamilyFB [1/3]}}{16}{subsubsection.4.6.2.1}
+\contentsline {subsubsection}{\numberline {4.6.2.2}Drone()\hspace {0.1cm}{\relax \fontsize {8}{9.5}\selectfont \abovedisplayskip 6\p@ plus2\p@ minus4\p@ \abovedisplayshortskip \z@ plus\p@ \belowdisplayshortskip 3\p@ plus\p@ minus2\p@ \def \leftmargin \leftmargini \parsep 4\p@ plus2\p@ minus\p@ \topsep 8\p@ plus2\p@ minus4\p@ \itemsep 4\p@ plus2\p@ minus\p@ {\leftmargin \leftmargini \topsep 3\p@ plus\p@ minus\p@ \parsep 2\p@ plus\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip \ttfamilyFB [2/3]}}{16}{subsubsection.4.6.2.2}
+\contentsline {subsubsection}{\numberline {4.6.2.3}Drone()\hspace {0.1cm}{\relax \fontsize {8}{9.5}\selectfont \abovedisplayskip 6\p@ plus2\p@ minus4\p@ \abovedisplayshortskip \z@ plus\p@ \belowdisplayshortskip 3\p@ plus\p@ minus2\p@ \def \leftmargin \leftmargini \parsep 4\p@ plus2\p@ minus\p@ \topsep 8\p@ plus2\p@ minus4\p@ \itemsep 4\p@ plus2\p@ minus\p@ {\leftmargin \leftmargini \topsep 3\p@ plus\p@ minus\p@ \parsep 2\p@ plus\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip \ttfamilyFB [3/3]}}{16}{subsubsection.4.6.2.3}
+\contentsline {subsubsection}{\numberline {4.6.2.4}$\sim $\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Drone()}{16}{subsubsection.4.6.2.4}
+\contentsline {subsection}{\numberline {4.6.3}Documentation des fonctions membres}{16}{subsection.4.6.3}
+\contentsline {subsubsection}{\numberline {4.6.3.1}ajouter\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Objectif()}{16}{subsubsection.4.6.3.1}
+\contentsline {subsubsection}{\numberline {4.6.3.2}a\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Objectif()}{17}{subsubsection.4.6.3.2}
+\contentsline {subsubsection}{\numberline {4.6.3.3}atteint\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Objectif()}{17}{subsubsection.4.6.3.3}
+\contentsline {subsubsection}{\numberline {4.6.3.4}est\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Fonctionnel()}{17}{subsubsection.4.6.3.4}
+\contentsline {subsubsection}{\numberline {4.6.3.5}get\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Acceleration()}{17}{subsubsection.4.6.3.5}
+\contentsline {subsubsection}{\numberline {4.6.3.6}get\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Position()}{17}{subsubsection.4.6.3.6}
+\contentsline {subsubsection}{\numberline {4.6.3.7}get\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Premier\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Objectif()}{17}{subsubsection.4.6.3.7}
+\contentsline {subsubsection}{\numberline {4.6.3.8}get\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Rayon()}{18}{subsubsection.4.6.3.8}
+\contentsline {subsubsection}{\numberline {4.6.3.9}get\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}V\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Capteurs()}{18}{subsubsection.4.6.3.9}
+\contentsline {subsubsection}{\numberline {4.6.3.10}get\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Vitesse()}{18}{subsubsection.4.6.3.10}
+\contentsline {subsubsection}{\numberline {4.6.3.11}get\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}V\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Objectifs()}{18}{subsubsection.4.6.3.11}
+\contentsline {subsubsection}{\numberline {4.6.3.12}livrer\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Colis()}{18}{subsubsection.4.6.3.12}
+\contentsline {subsubsection}{\numberline {4.6.3.13}ne\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Fonctionne\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Plus()}{18}{subsubsection.4.6.3.13}
+\contentsline {subsubsection}{\numberline {4.6.3.14}porte\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Un\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Colis()}{19}{subsubsection.4.6.3.14}
+\contentsline {subsubsection}{\numberline {4.6.3.15}set\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Acceleration()}{19}{subsubsection.4.6.3.15}
+\contentsline {subsubsection}{\numberline {4.6.3.16}set\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Position()}{19}{subsubsection.4.6.3.16}
+\contentsline {subsubsection}{\numberline {4.6.3.17}set\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Vitesse()}{19}{subsubsection.4.6.3.17}
+\contentsline {section}{\numberline {4.7}R\IeC {\'e}f\IeC {\'e}rence de la classe Environnement}{19}{section.4.7}
+\contentsline {subsection}{\numberline {4.7.1}Description d\IeC {\'e}taill\IeC {\'e}e}{20}{subsection.4.7.1}
+\contentsline {subsection}{\numberline {4.7.2}Documentation des constructeurs et destructeur}{20}{subsection.4.7.2}
+\contentsline {subsubsection}{\numberline {4.7.2.1}Environnement()\hspace {0.1cm}{\relax \fontsize {8}{9.5}\selectfont \abovedisplayskip 6\p@ plus2\p@ minus4\p@ \abovedisplayshortskip \z@ plus\p@ \belowdisplayshortskip 3\p@ plus\p@ minus2\p@ \def \leftmargin \leftmargini \parsep 4\p@ plus2\p@ minus\p@ \topsep 8\p@ plus2\p@ minus4\p@ \itemsep 4\p@ plus2\p@ minus\p@ {\leftmargin \leftmargini \topsep 3\p@ plus\p@ minus\p@ \parsep 2\p@ plus\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip \ttfamilyFB [1/2]}}{20}{subsubsection.4.7.2.1}
+\contentsline {subsubsection}{\numberline {4.7.2.2}Environnement()\hspace {0.1cm}{\relax \fontsize {8}{9.5}\selectfont \abovedisplayskip 6\p@ plus2\p@ minus4\p@ \abovedisplayshortskip \z@ plus\p@ \belowdisplayshortskip 3\p@ plus\p@ minus2\p@ \def \leftmargin \leftmargini \parsep 4\p@ plus2\p@ minus\p@ \topsep 8\p@ plus2\p@ minus4\p@ \itemsep 4\p@ plus2\p@ minus\p@ {\leftmargin \leftmargini \topsep 3\p@ plus\p@ minus\p@ \parsep 2\p@ plus\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip \ttfamilyFB [2/2]}}{20}{subsubsection.4.7.2.2}
+\contentsline {subsection}{\numberline {4.7.3}Documentation des fonctions membres}{20}{subsection.4.7.3}
+\contentsline {subsubsection}{\numberline {4.7.3.1}ajouter\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Colis()}{20}{subsubsection.4.7.3.1}
+\contentsline {subsubsection}{\numberline {4.7.3.2}ajouter\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Obstacle()}{20}{subsubsection.4.7.3.2}
+\contentsline {subsubsection}{\numberline {4.7.3.3}associer\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Essaim()}{21}{subsubsection.4.7.3.3}
+\contentsline {subsubsection}{\numberline {4.7.3.4}get\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Essaim\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Drones()}{21}{subsubsection.4.7.3.4}
+\contentsline {subsubsection}{\numberline {4.7.3.5}operator++()}{21}{subsubsection.4.7.3.5}
+\contentsline {section}{\numberline {4.8}R\IeC {\'e}f\IeC {\'e}rence de la classe Essaim}{21}{section.4.8}
+\contentsline {subsection}{\numberline {4.8.1}Description d\IeC {\'e}taill\IeC {\'e}e}{21}{subsection.4.8.1}
+\contentsline {subsection}{\numberline {4.8.2}Documentation des constructeurs et destructeur}{21}{subsection.4.8.2}
+\contentsline {subsubsection}{\numberline {4.8.2.1}Essaim()\hspace {0.1cm}{\relax \fontsize {8}{9.5}\selectfont \abovedisplayskip 6\p@ plus2\p@ minus4\p@ \abovedisplayshortskip \z@ plus\p@ \belowdisplayshortskip 3\p@ plus\p@ minus2\p@ \def \leftmargin \leftmargini \parsep 4\p@ plus2\p@ minus\p@ \topsep 8\p@ plus2\p@ minus4\p@ \itemsep 4\p@ plus2\p@ minus\p@ {\leftmargin \leftmargini \topsep 3\p@ plus\p@ minus\p@ \parsep 2\p@ plus\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip \ttfamilyFB [1/2]}}{22}{subsubsection.4.8.2.1}
+\contentsline {subsubsection}{\numberline {4.8.2.2}Essaim()\hspace {0.1cm}{\relax \fontsize {8}{9.5}\selectfont \abovedisplayskip 6\p@ plus2\p@ minus4\p@ \abovedisplayshortskip \z@ plus\p@ \belowdisplayshortskip 3\p@ plus\p@ minus2\p@ \def \leftmargin \leftmargini \parsep 4\p@ plus2\p@ minus\p@ \topsep 8\p@ plus2\p@ minus4\p@ \itemsep 4\p@ plus2\p@ minus\p@ {\leftmargin \leftmargini \topsep 3\p@ plus\p@ minus\p@ \parsep 2\p@ plus\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip \ttfamilyFB [2/2]}}{22}{subsubsection.4.8.2.2}
+\contentsline {subsection}{\numberline {4.8.3}Documentation des fonctions membres}{22}{subsection.4.8.3}
+\contentsline {subsubsection}{\numberline {4.8.3.1}ajouter\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Drone()}{22}{subsubsection.4.8.3.1}
+\contentsline {subsubsection}{\numberline {4.8.3.2}formation()}{22}{subsubsection.4.8.3.2}
+\contentsline {subsubsection}{\numberline {4.8.3.3}get\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}V\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Drones()}{22}{subsubsection.4.8.3.3}
+\contentsline {subsubsection}{\numberline {4.8.3.4}retirer\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Colis()}{22}{subsubsection.4.8.3.4}
+\contentsline {section}{\numberline {4.9}R\IeC {\'e}f\IeC {\'e}rence de la classe Formation}{23}{section.4.9}
+\contentsline {subsection}{\numberline {4.9.1}Description d\IeC {\'e}taill\IeC {\'e}e}{23}{subsection.4.9.1}
+\contentsline {subsection}{\numberline {4.9.2}Documentation des constructeurs et destructeur}{23}{subsection.4.9.2}
+\contentsline {subsubsection}{\numberline {4.9.2.1}Formation()}{24}{subsubsection.4.9.2.1}
+\contentsline {subsubsection}{\numberline {4.9.2.2}$\sim $\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Formation()}{24}{subsubsection.4.9.2.2}
+\contentsline {subsection}{\numberline {4.9.3}Documentation des fonctions membres}{24}{subsection.4.9.3}
+\contentsline {subsubsection}{\numberline {4.9.3.1}generer\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Maillage()}{24}{subsubsection.4.9.3.1}
+\contentsline {subsection}{\numberline {4.9.4}Documentation des donn\IeC {\'e}es membres}{24}{subsection.4.9.4}
+\contentsline {subsubsection}{\numberline {4.9.4.1}altitude}{24}{subsubsection.4.9.4.1}
+\contentsline {subsubsection}{\numberline {4.9.4.2}nb\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Drones}{24}{subsubsection.4.9.4.2}
+\contentsline {section}{\numberline {4.10}R\IeC {\'e}f\IeC {\'e}rence de la classe Naif}{25}{section.4.10}
+\contentsline {subsection}{\numberline {4.10.1}Description d\IeC {\'e}taill\IeC {\'e}e}{25}{subsection.4.10.1}
+\contentsline {subsection}{\numberline {4.10.2}Documentation des constructeurs et destructeur}{25}{subsection.4.10.2}
+\contentsline {subsubsection}{\numberline {4.10.2.1}Naif()}{25}{subsubsection.4.10.2.1}
+\contentsline {subsection}{\numberline {4.10.3}Documentation des fonctions membres}{26}{subsection.4.10.3}
+\contentsline {subsubsection}{\numberline {4.10.3.1}aller\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Point()}{26}{subsubsection.4.10.3.1}
+\contentsline {subsection}{\numberline {4.10.4}Documentation des donn\IeC {\'e}es membres}{26}{subsection.4.10.4}
+\contentsline {subsubsection}{\numberline {4.10.4.1}depart}{26}{subsubsection.4.10.4.1}
+\contentsline {subsubsection}{\numberline {4.10.4.2}dest}{26}{subsubsection.4.10.4.2}
+\contentsline {subsubsection}{\numberline {4.10.4.3}v0}{27}{subsubsection.4.10.4.3}
+\contentsline {section}{\numberline {4.11}R\IeC {\'e}f\IeC {\'e}rence de la classe Obstacle}{27}{section.4.11}
+\contentsline {subsection}{\numberline {4.11.1}Documentation des constructeurs et destructeur}{27}{subsection.4.11.1}
+\contentsline {subsubsection}{\numberline {4.11.1.1}Obstacle()}{27}{subsubsection.4.11.1.1}
+\contentsline {subsection}{\numberline {4.11.2}Documentation des fonctions membres}{27}{subsection.4.11.2}
+\contentsline {subsubsection}{\numberline {4.11.2.1}get\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Centre()}{28}{subsubsection.4.11.2.1}
+\contentsline {subsubsection}{\numberline {4.11.2.2}get\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Face\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}X\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Max()}{28}{subsubsection.4.11.2.2}
+\contentsline {subsubsection}{\numberline {4.11.2.3}get\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Face\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}X\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Min()}{28}{subsubsection.4.11.2.3}
+\contentsline {subsubsection}{\numberline {4.11.2.4}get\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Face\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Y\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Max()}{28}{subsubsection.4.11.2.4}
+\contentsline {subsubsection}{\numberline {4.11.2.5}get\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Face\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Y\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Min()}{28}{subsubsection.4.11.2.5}
+\contentsline {subsubsection}{\numberline {4.11.2.6}get\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Face\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Z\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Max()}{28}{subsubsection.4.11.2.6}
+\contentsline {subsubsection}{\numberline {4.11.2.7}get\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Face\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Z\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Min()}{28}{subsubsection.4.11.2.7}
+\contentsline {subsubsection}{\numberline {4.11.2.8}get\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Init()}{28}{subsubsection.4.11.2.8}
+\contentsline {subsubsection}{\numberline {4.11.2.9}get\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Taille\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}X()}{29}{subsubsection.4.11.2.9}
+\contentsline {subsubsection}{\numberline {4.11.2.10}get\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Taille\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Y()}{29}{subsubsection.4.11.2.10}
+\contentsline {subsubsection}{\numberline {4.11.2.11}get\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Taille\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Z()}{29}{subsubsection.4.11.2.11}
+\contentsline {subsubsection}{\numberline {4.11.2.12}get\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}V\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Sommets()}{29}{subsubsection.4.11.2.12}
+\contentsline {section}{\numberline {4.12}R\IeC {\'e}f\IeC {\'e}rence de la classe Pyramidale}{29}{section.4.12}
+\contentsline {subsection}{\numberline {4.12.1}Description d\IeC {\'e}taill\IeC {\'e}e}{30}{subsection.4.12.1}
+\contentsline {subsection}{\numberline {4.12.2}Documentation des donn\IeC {\'e}es membres}{30}{subsection.4.12.2}
+\contentsline {subsubsection}{\numberline {4.12.2.1}sommet}{30}{subsubsection.4.12.2.1}
+\contentsline {subsubsection}{\numberline {4.12.2.2}v\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Points\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Base}{30}{subsubsection.4.12.2.2}
+\contentsline {section}{\numberline {4.13}R\IeC {\'e}f\IeC {\'e}rence de la classe tests\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Capteur}{30}{section.4.13}
+\contentsline {subsection}{\numberline {4.13.1}Documentation des fonctions membres}{31}{subsection.4.13.1}
+\contentsline {subsubsection}{\numberline {4.13.1.1}test\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Update\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Distance\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Detectee()}{31}{subsubsection.4.13.1.1}
+\contentsline {section}{\numberline {4.14}R\IeC {\'e}f\IeC {\'e}rence de la classe tests\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Drone}{31}{section.4.14}
+\contentsline {subsection}{\numberline {4.14.1}Documentation des fonctions membres}{31}{subsection.4.14.1}
+\contentsline {subsubsection}{\numberline {4.14.1.1}test\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Ajouter\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Objectif()}{32}{subsubsection.4.14.1.1}
+\contentsline {subsubsection}{\numberline {4.14.1.2}test\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Atteint\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Objectif()}{32}{subsubsection.4.14.1.2}
+\contentsline {subsubsection}{\numberline {4.14.1.3}test\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Livrer\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Colis()}{32}{subsubsection.4.14.1.3}
+\contentsline {subsubsection}{\numberline {4.14.1.4}testplusplus()}{32}{subsubsection.4.14.1.4}
+\contentsline {section}{\numberline {4.15}R\IeC {\'e}f\IeC {\'e}rence de la classe tests\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Environnement}{32}{section.4.15}
+\contentsline {section}{\numberline {4.16}R\IeC {\'e}f\IeC {\'e}rence de la classe tests\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Essaim}{33}{section.4.16}
+\contentsline {subsection}{\numberline {4.16.1}Description d\IeC {\'e}taill\IeC {\'e}e}{33}{subsection.4.16.1}
+\contentsline {subsection}{\numberline {4.16.2}Documentation des fonctions membres}{33}{subsection.4.16.2}
+\contentsline {subsubsection}{\numberline {4.16.2.1}test\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Affectation\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Drone\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Pos()}{33}{subsubsection.4.16.2.1}
+\contentsline {subsubsection}{\numberline {4.16.2.2}test\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Retirer\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Colis()}{33}{subsubsection.4.16.2.2}
+\contentsline {section}{\numberline {4.17}R\IeC {\'e}f\IeC {\'e}rence de la classe tests\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Vecteur\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}R3}{34}{section.4.17}
+\contentsline {section}{\numberline {4.18}R\IeC {\'e}f\IeC {\'e}rence de la classe Track\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Ball\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Camera}{34}{section.4.18}
+\contentsline {subsection}{\numberline {4.18.1}Description d\IeC {\'e}taill\IeC {\'e}e}{35}{subsection.4.18.1}
+\contentsline {section}{\numberline {4.19}R\IeC {\'e}f\IeC {\'e}rence de la classe Vecteur\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}R3}{35}{section.4.19}
+\contentsline {subsection}{\numberline {4.19.1}Description d\IeC {\'e}taill\IeC {\'e}e}{35}{subsection.4.19.1}
+\contentsline {subsection}{\numberline {4.19.2}Documentation des constructeurs et destructeur}{36}{subsection.4.19.2}
+\contentsline {subsubsection}{\numberline {4.19.2.1}Vecteur\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}R3()\hspace {0.1cm}{\relax \fontsize {8}{9.5}\selectfont \abovedisplayskip 6\p@ plus2\p@ minus4\p@ \abovedisplayshortskip \z@ plus\p@ \belowdisplayshortskip 3\p@ plus\p@ minus2\p@ \def \leftmargin \leftmargini \parsep 4\p@ plus2\p@ minus\p@ \topsep 8\p@ plus2\p@ minus4\p@ \itemsep 4\p@ plus2\p@ minus\p@ {\leftmargin \leftmargini \topsep 3\p@ plus\p@ minus\p@ \parsep 2\p@ plus\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip \ttfamilyFB [1/2]}}{36}{subsubsection.4.19.2.1}
+\contentsline {subsubsection}{\numberline {4.19.2.2}Vecteur\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}R3()\hspace {0.1cm}{\relax \fontsize {8}{9.5}\selectfont \abovedisplayskip 6\p@ plus2\p@ minus4\p@ \abovedisplayshortskip \z@ plus\p@ \belowdisplayshortskip 3\p@ plus\p@ minus2\p@ \def \leftmargin \leftmargini \parsep 4\p@ plus2\p@ minus\p@ \topsep 8\p@ plus2\p@ minus4\p@ \itemsep 4\p@ plus2\p@ minus\p@ {\leftmargin \leftmargini \topsep 3\p@ plus\p@ minus\p@ \parsep 2\p@ plus\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip \ttfamilyFB [2/2]}}{36}{subsubsection.4.19.2.2}
+\contentsline {subsubsection}{\numberline {4.19.2.3}$\sim $\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Vecteur\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}R3()}{36}{subsubsection.4.19.2.3}
+\contentsline {subsection}{\numberline {4.19.3}Documentation des fonctions membres}{36}{subsection.4.19.3}
+\contentsline {subsubsection}{\numberline {4.19.3.1}div()}{36}{subsubsection.4.19.3.1}
+\contentsline {subsubsection}{\numberline {4.19.3.2}egal()}{36}{subsubsection.4.19.3.2}
+\contentsline {subsubsection}{\numberline {4.19.3.3}multi()}{37}{subsubsection.4.19.3.3}
+\contentsline {subsubsection}{\numberline {4.19.3.4}norme2()}{37}{subsubsection.4.19.3.4}
+\contentsline {subsubsection}{\numberline {4.19.3.5}norme22()}{37}{subsubsection.4.19.3.5}
+\contentsline {subsubsection}{\numberline {4.19.3.6}operator$\ast $()\hspace {0.1cm}{\relax \fontsize {8}{9.5}\selectfont \abovedisplayskip 6\p@ plus2\p@ minus4\p@ \abovedisplayshortskip \z@ plus\p@ \belowdisplayshortskip 3\p@ plus\p@ minus2\p@ \def \leftmargin \leftmargini \parsep 4\p@ plus2\p@ minus\p@ \topsep 8\p@ plus2\p@ minus4\p@ \itemsep 4\p@ plus2\p@ minus\p@ {\leftmargin \leftmargini \topsep 3\p@ plus\p@ minus\p@ \parsep 2\p@ plus\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip \ttfamilyFB [1/2]}}{37}{subsubsection.4.19.3.6}
+\contentsline {subsubsection}{\numberline {4.19.3.7}operator$\ast $()\hspace {0.1cm}{\relax \fontsize {8}{9.5}\selectfont \abovedisplayskip 6\p@ plus2\p@ minus4\p@ \abovedisplayshortskip \z@ plus\p@ \belowdisplayshortskip 3\p@ plus\p@ minus2\p@ \def \leftmargin \leftmargini \parsep 4\p@ plus2\p@ minus\p@ \topsep 8\p@ plus2\p@ minus4\p@ \itemsep 4\p@ plus2\p@ minus\p@ {\leftmargin \leftmargini \topsep 3\p@ plus\p@ minus\p@ \parsep 2\p@ plus\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip \ttfamilyFB [2/2]}}{37}{subsubsection.4.19.3.7}
+\contentsline {subsubsection}{\numberline {4.19.3.8}operator+()}{38}{subsubsection.4.19.3.8}
+\contentsline {subsubsection}{\numberline {4.19.3.9}operator+=()}{38}{subsubsection.4.19.3.9}
+\contentsline {subsubsection}{\numberline {4.19.3.10}operator-\/()}{38}{subsubsection.4.19.3.10}
+\contentsline {subsubsection}{\numberline {4.19.3.11}operator-\/=()}{38}{subsubsection.4.19.3.11}
+\contentsline {subsubsection}{\numberline {4.19.3.12}operator=()}{38}{subsubsection.4.19.3.12}
+\contentsline {subsubsection}{\numberline {4.19.3.13}operator[]()}{38}{subsubsection.4.19.3.13}
+\contentsline {subsubsection}{\numberline {4.19.3.14}prod\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Vec()}{38}{subsubsection.4.19.3.14}
+\contentsline {subsubsection}{\numberline {4.19.3.15}reflexion\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Plan\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Ortho()}{39}{subsubsection.4.19.3.15}
+\contentsline {subsubsection}{\numberline {4.19.3.16}valeur\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Absolue()}{39}{subsubsection.4.19.3.16}
+\contentsline {subsection}{\numberline {4.19.4}Documentation des fonctions amies et associ\IeC {\'e}es}{39}{subsection.4.19.4}
+\contentsline {subsubsection}{\numberline {4.19.4.1}operator$<$$<$}{39}{subsubsection.4.19.4.1}
+\contentsline {chapter}{\numberline {5}Documentation des fichiers}{41}{chapter.5}
+\contentsline {section}{\numberline {5.1}R\IeC {\'e}f\IeC {\'e}rence du fichier main.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}cpp}{41}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Description d\IeC {\'e}taill\IeC {\'e}e}{42}{subsection.5.1.1}

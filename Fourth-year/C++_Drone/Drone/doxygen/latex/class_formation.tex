@@ -1,0 +1,89 @@
+\hypertarget{class_formation}{}\section{Référence de la classe Formation}
+\label{class_formation}\index{Formation@{Formation}}
+
+
+{\ttfamily \#include $<$Formation.\+h$>$}
+
+Graphe d\textquotesingle{}héritage de Formation\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_formation}
+\end{center}
+\end{figure}
+\subsection*{Fonctions membres publiques}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_formation_a60c3058dd353550d89183ec529909cb6}{Formation}} ()
+\item 
+virtual \mbox{\hyperlink{class_formation_a5b4ffd37549ec211d85e52c916f35eb6}{$\sim$\+Formation}} ()
+\item 
+virtual vector$<$ \mbox{\hyperlink{class_vecteur_r3}{Vecteur\+R3}} $>$ \mbox{\hyperlink{class_formation_ad1044228c0a1a4ee585ffe7f615c06ea}{generer\+Maillage}} ()=0
+\end{DoxyCompactItemize}
+\subsection*{Attributs protégés}
+\begin{DoxyCompactItemize}
+\item 
+float \mbox{\hyperlink{class_formation_a46ac97ac7c664d265c91a9ba3c718282}{altitude}}
+\item 
+int \mbox{\hyperlink{class_formation_a946670f42a19f84960990e9ffb781877}{nb\+Drones}}
+\end{DoxyCompactItemize}
+
+
+\subsection{Description détaillée}
+Classe abstraite correspondant à une figure géométrique aérienne que peut réaliser une parte ou l\textquotesingle{}ensemble de l\textquotesingle{}essaim. \begin{DoxyAuthor}{Auteur}
+Margot, Théau et Morgan 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+13/04/18 
+\end{DoxyDate}
+
+
+\subsection{Documentation des constructeurs et destructeur}
+\mbox{\Hypertarget{class_formation_a60c3058dd353550d89183ec529909cb6}\label{class_formation_a60c3058dd353550d89183ec529909cb6}} 
+\index{Formation@{Formation}!Formation@{Formation}}
+\index{Formation@{Formation}!Formation@{Formation}}
+\subsubsection{\texorpdfstring{Formation()}{Formation()}}
+{\footnotesize\ttfamily Formation\+::\+Formation (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Constructeur inutilisable (classe abstraite) \mbox{\Hypertarget{class_formation_a5b4ffd37549ec211d85e52c916f35eb6}\label{class_formation_a5b4ffd37549ec211d85e52c916f35eb6}} 
+\index{Formation@{Formation}!````~Formation@{$\sim$\+Formation}}
+\index{````~Formation@{$\sim$\+Formation}!Formation@{Formation}}
+\subsubsection{\texorpdfstring{$\sim$\+Formation()}{~Formation()}}
+{\footnotesize\ttfamily Formation\+::$\sim$\+Formation (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Destructeur inutilisable (classe abstraite) 
+
+\subsection{Documentation des fonctions membres}
+\mbox{\Hypertarget{class_formation_ad1044228c0a1a4ee585ffe7f615c06ea}\label{class_formation_ad1044228c0a1a4ee585ffe7f615c06ea}} 
+\index{Formation@{Formation}!generer\+Maillage@{generer\+Maillage}}
+\index{generer\+Maillage@{generer\+Maillage}!Formation@{Formation}}
+\subsubsection{\texorpdfstring{generer\+Maillage()}{genererMaillage()}}
+{\footnotesize\ttfamily virtual vector$<$\mbox{\hyperlink{class_vecteur_r3}{Vecteur\+R3}}$>$ Formation\+::generer\+Maillage (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+Méthode permettant de générer le maillage à partir des points et des contraintes de taille de \mbox{\hyperlink{class_formation}{Formation}}. \begin{DoxyReturn}{Renvoie}
+Retourne une nouvelle liste de vecteurs 
+\end{DoxyReturn}
+
+
+Implémenté dans \mbox{\hyperlink{class_cubique_ac7f56ed79d1732b2bf59e0456b3a2f6f}{Cubique}}.
+
+
+
+\subsection{Documentation des données membres}
+\mbox{\Hypertarget{class_formation_a46ac97ac7c664d265c91a9ba3c718282}\label{class_formation_a46ac97ac7c664d265c91a9ba3c718282}} 
+\index{Formation@{Formation}!altitude@{altitude}}
+\index{altitude@{altitude}!Formation@{Formation}}
+\subsubsection{\texorpdfstring{altitude}{altitude}}
+{\footnotesize\ttfamily float Formation\+::altitude\hspace{0.3cm}{\ttfamily [protected]}}
+
+Altitude de la formation \mbox{\Hypertarget{class_formation_a946670f42a19f84960990e9ffb781877}\label{class_formation_a946670f42a19f84960990e9ffb781877}} 
+\index{Formation@{Formation}!nb\+Drones@{nb\+Drones}}
+\index{nb\+Drones@{nb\+Drones}!Formation@{Formation}}
+\subsubsection{\texorpdfstring{nb\+Drones}{nbDrones}}
+{\footnotesize\ttfamily int Formation\+::nb\+Drones\hspace{0.3cm}{\ttfamily [protected]}}
+
+Le nombre de drones qui composent la formation 
+
+La documentation de cette classe a été générée à partir des fichiers suivants \+:\begin{DoxyCompactItemize}
+\item 
+Formation.\+h\item 
+Formation.\+cpp\end{DoxyCompactItemize}

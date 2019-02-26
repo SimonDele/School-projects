@@ -1,0 +1,126 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.14"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Drones:  Fichier source de Drone.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+  $(document).ready(initResizable);
+/* @license-end */</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Drones
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Généré par Doxygen 1.8.14 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Recherche');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Recherche');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(document).ready(function(){initNavTree('_drone_8h_source.html','');});
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">Drone.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef DRONE_H</span></div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define DRONE_H</span></div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;</div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &quot;../include/VecteurR3.h&quot;</span></div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &quot;../include/Comportement.h&quot;</span></div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &quot;../include/Naif.h&quot;</span></div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#include &lt;cstddef&gt;</span></div><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#include&lt;vector&gt;</span></div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#include&lt;queue&gt;</span></div><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;</div><div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="class_drone.html">   15</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_drone.html">Drone</a> {</div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;  <span class="keyword">private</span>:</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    <span class="keywordtype">float</span> rayon;</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    <span class="keywordtype">bool</span> porteColis;</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    <span class="keywordtype">bool</span> fonctionne;</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    <a class="code" href="class_comportement.html">Comportement</a> *comportement;</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    <a class="code" href="class_vecteur_r3.html">VecteurR3</a> position;</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    <a class="code" href="class_vecteur_r3.html">VecteurR3</a> vitesse;</div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    <a class="code" href="class_vecteur_r3.html">VecteurR3</a> acceleration;</div><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    std::vector&lt;Capteur&gt; vCapteurs;</div><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    std::queue&lt;VecteurR3&gt; vObjectifs;</div><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    <a class="code" href="class_vecteur_r3.html">VecteurR3</a> gravite;</div><div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    <span class="keywordtype">bool</span> objectifDone();</div><div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;</div><div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;  <span class="keyword">public</span>:</div><div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    <a class="code" href="class_drone.html#a61e6934c19d51cecd69274b0c2f8f074">Drone</a>(<span class="keyword">const</span> <a class="code" href="class_vecteur_r3.html">VecteurR3</a>);</div><div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    <a class="code" href="class_drone.html#a61e6934c19d51cecd69274b0c2f8f074">Drone</a>(<span class="keyword">const</span> <span class="keywordtype">float</span>, <span class="keyword">const</span> <a class="code" href="class_vecteur_r3.html">VecteurR3</a>, <span class="keyword">const</span> std::vector&lt;Capteur&gt;&amp;);</div><div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    <a class="code" href="class_drone.html#a61e6934c19d51cecd69274b0c2f8f074">Drone</a>(<span class="keyword">const</span> <span class="keywordtype">float</span> rayon, <a class="code" href="class_vecteur_r3.html">VecteurR3</a> pos, std::vector&lt;Capteur&gt; vCap, <span class="keyword">const</span> <a class="code" href="class_vecteur_r3.html">VecteurR3</a> _gravite,<a class="code" href="class_vecteur_r3.html">VecteurR3</a> vit = <a class="code" href="class_vecteur_r3.html">VecteurR3</a>());</div><div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    <a class="code" href="class_drone.html">Drone</a> operator++(<span class="keywordtype">int</span>);</div><div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    <span class="keyword">virtual</span> <a class="code" href="class_drone.html#a667075abb1eb5c54be6418884a387d14">~Drone</a>();</div><div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;</div><div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    <a class="code" href="class_vecteur_r3.html">VecteurR3</a> <a class="code" href="class_drone.html#ad8d5dda09c0e45c8d2c0f1f26a840f0e">getPremierObjectif</a>() <span class="keyword">const</span>;</div><div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    std::queue&lt;VecteurR3&gt; <a class="code" href="class_drone.html#a11c5ec4c9211f217b2f0b11f46a1e627">getVObjectifs</a>() <span class="keyword">const</span>;</div><div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    std::vector&lt;Capteur&gt; <a class="code" href="class_drone.html#a0fb2eb8aa87f70b8f6d251f7b28feea4">getVCapteurs</a>() <span class="keyword">const</span>;</div><div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    <a class="code" href="class_vecteur_r3.html">VecteurR3</a> <a class="code" href="class_drone.html#a54d473991206bba12c44e5425779793e">getPosition</a>() <span class="keyword">const</span>;</div><div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    <a class="code" href="class_vecteur_r3.html">VecteurR3</a> <a class="code" href="class_drone.html#a4b6a219813286c95545bccdf061a5f48">getVitesse</a>() <span class="keyword">const</span>;</div><div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    <a class="code" href="class_vecteur_r3.html">VecteurR3</a> <a class="code" href="class_drone.html#a87ea8e6f37a123251b59ad936e51d4ad">getAcceleration</a>() <span class="keyword">const</span>;</div><div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_drone.html#a6a379b028a7c5b48bac16966fef5e1a4">setPosition</a>(<span class="keyword">const</span> <a class="code" href="class_vecteur_r3.html">VecteurR3</a>);</div><div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_drone.html#a63d698e315ebab5f36dd74447259828f">setVitesse</a>(<span class="keyword">const</span> <a class="code" href="class_vecteur_r3.html">VecteurR3</a>);</div><div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_drone.html#a75aaefd8ca47db757ad38a10482aa042">setAcceleration</a>(<span class="keyword">const</span> <a class="code" href="class_vecteur_r3.html">VecteurR3</a>&amp;);</div><div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    <span class="keywordtype">float</span> <a class="code" href="class_drone.html#a03a089698c78f9f4dedc51b5dc7099c3">getRayon</a>() <span class="keyword">const</span>;</div><div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_drone.html#a0e15629285db6c6c9f1b21ce138bf6ec">neFonctionnePlus</a>();</div><div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="class_drone.html#a6df0c61c5aa61884d87365696f33affd">estFonctionnel</a>() <span class="keyword">const</span>;</div><div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="class_drone.html#a42c8991a71af54828612cba245b84063">aObjectif</a>() <span class="keyword">const</span>;</div><div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="class_drone.html#a4e2e166a9a0c5732e789d08c6cda56d1">atteintObjectif</a>();</div><div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="class_drone.html#aaa8aa9eedb05b4c46bd92e88d5f14441">porteUnColis</a>() <span class="keyword">const</span>;</div><div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_drone.html#aec517cb61a036852752219bad4e732c1">ajouterObjectif</a>(<span class="keyword">const</span> <a class="code" href="class_vecteur_r3.html">VecteurR3</a>&amp; obj);</div><div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_drone.html#ae7249a3f0c054e2c1beb6ea522774029">livrerColis</a>(<span class="keyword">const</span> <a class="code" href="class_vecteur_r3.html">VecteurR3</a>&amp; retrait, <span class="keyword">const</span> <a class="code" href="class_vecteur_r3.html">VecteurR3</a>&amp; depot);</div><div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;};</div><div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;</div><div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;<span class="preprocessor">#endif // DRONE_H</span></div><div class="ttc" id="class_drone_html_a54d473991206bba12c44e5425779793e"><div class="ttname"><a href="class_drone.html#a54d473991206bba12c44e5425779793e">Drone::getPosition</a></div><div class="ttdeci">VecteurR3 getPosition() const</div><div class="ttdef"><b>Definition:</b> Drone.cpp:35</div></div>
+<div class="ttc" id="class_drone_html_a03a089698c78f9f4dedc51b5dc7099c3"><div class="ttname"><a href="class_drone.html#a03a089698c78f9f4dedc51b5dc7099c3">Drone::getRayon</a></div><div class="ttdeci">float getRayon() const</div><div class="ttdef"><b>Definition:</b> Drone.cpp:41</div></div>
+<div class="ttc" id="class_drone_html_a42c8991a71af54828612cba245b84063"><div class="ttname"><a href="class_drone.html#a42c8991a71af54828612cba245b84063">Drone::aObjectif</a></div><div class="ttdeci">bool aObjectif() const</div><div class="ttdef"><b>Definition:</b> Drone.cpp:44</div></div>
+<div class="ttc" id="class_drone_html_a0e15629285db6c6c9f1b21ce138bf6ec"><div class="ttname"><a href="class_drone.html#a0e15629285db6c6c9f1b21ce138bf6ec">Drone::neFonctionnePlus</a></div><div class="ttdeci">void neFonctionnePlus()</div><div class="ttdef"><b>Definition:</b> Drone.cpp:42</div></div>
+<div class="ttc" id="class_drone_html_a6a379b028a7c5b48bac16966fef5e1a4"><div class="ttname"><a href="class_drone.html#a6a379b028a7c5b48bac16966fef5e1a4">Drone::setPosition</a></div><div class="ttdeci">void setPosition(const VecteurR3)</div><div class="ttdef"><b>Definition:</b> Drone.cpp:38</div></div>
+<div class="ttc" id="class_comportement_html"><div class="ttname"><a href="class_comportement.html">Comportement</a></div><div class="ttdef"><b>Definition:</b> Comportement.h:11</div></div>
+<div class="ttc" id="class_drone_html_a4b6a219813286c95545bccdf061a5f48"><div class="ttname"><a href="class_drone.html#a4b6a219813286c95545bccdf061a5f48">Drone::getVitesse</a></div><div class="ttdeci">VecteurR3 getVitesse() const</div><div class="ttdef"><b>Definition:</b> Drone.cpp:36</div></div>
+<div class="ttc" id="class_drone_html_a6df0c61c5aa61884d87365696f33affd"><div class="ttname"><a href="class_drone.html#a6df0c61c5aa61884d87365696f33affd">Drone::estFonctionnel</a></div><div class="ttdeci">bool estFonctionnel() const</div><div class="ttdef"><b>Definition:</b> Drone.cpp:43</div></div>
+<div class="ttc" id="class_vecteur_r3_html"><div class="ttname"><a href="class_vecteur_r3.html">VecteurR3</a></div><div class="ttdef"><b>Definition:</b> VecteurR3.h:13</div></div>
+<div class="ttc" id="class_drone_html_a11c5ec4c9211f217b2f0b11f46a1e627"><div class="ttname"><a href="class_drone.html#a11c5ec4c9211f217b2f0b11f46a1e627">Drone::getVObjectifs</a></div><div class="ttdeci">std::queue&lt; VecteurR3 &gt; getVObjectifs() const</div><div class="ttdef"><b>Definition:</b> Drone.cpp:33</div></div>
+<div class="ttc" id="class_drone_html_ad8d5dda09c0e45c8d2c0f1f26a840f0e"><div class="ttname"><a href="class_drone.html#ad8d5dda09c0e45c8d2c0f1f26a840f0e">Drone::getPremierObjectif</a></div><div class="ttdeci">VecteurR3 getPremierObjectif() const</div><div class="ttdef"><b>Definition:</b> Drone.cpp:32</div></div>
+<div class="ttc" id="class_drone_html_a63d698e315ebab5f36dd74447259828f"><div class="ttname"><a href="class_drone.html#a63d698e315ebab5f36dd74447259828f">Drone::setVitesse</a></div><div class="ttdeci">void setVitesse(const VecteurR3)</div><div class="ttdef"><b>Definition:</b> Drone.cpp:39</div></div>
+<div class="ttc" id="class_drone_html_a87ea8e6f37a123251b59ad936e51d4ad"><div class="ttname"><a href="class_drone.html#a87ea8e6f37a123251b59ad936e51d4ad">Drone::getAcceleration</a></div><div class="ttdeci">VecteurR3 getAcceleration() const</div><div class="ttdef"><b>Definition:</b> Drone.cpp:37</div></div>
+<div class="ttc" id="class_drone_html_a0fb2eb8aa87f70b8f6d251f7b28feea4"><div class="ttname"><a href="class_drone.html#a0fb2eb8aa87f70b8f6d251f7b28feea4">Drone::getVCapteurs</a></div><div class="ttdeci">std::vector&lt; Capteur &gt; getVCapteurs() const</div><div class="ttdef"><b>Definition:</b> Drone.cpp:34</div></div>
+<div class="ttc" id="class_drone_html_a4e2e166a9a0c5732e789d08c6cda56d1"><div class="ttname"><a href="class_drone.html#a4e2e166a9a0c5732e789d08c6cda56d1">Drone::atteintObjectif</a></div><div class="ttdeci">bool atteintObjectif()</div><div class="ttdef"><b>Definition:</b> Drone.cpp:47</div></div>
+<div class="ttc" id="class_drone_html_a667075abb1eb5c54be6418884a387d14"><div class="ttname"><a href="class_drone.html#a667075abb1eb5c54be6418884a387d14">Drone::~Drone</a></div><div class="ttdeci">virtual ~Drone()</div><div class="ttdef"><b>Definition:</b> Drone.cpp:28</div></div>
+<div class="ttc" id="class_drone_html_aec517cb61a036852752219bad4e732c1"><div class="ttname"><a href="class_drone.html#aec517cb61a036852752219bad4e732c1">Drone::ajouterObjectif</a></div><div class="ttdeci">void ajouterObjectif(const VecteurR3 &amp;obj)</div><div class="ttdef"><b>Definition:</b> Drone.cpp:75</div></div>
+<div class="ttc" id="class_drone_html_ae7249a3f0c054e2c1beb6ea522774029"><div class="ttname"><a href="class_drone.html#ae7249a3f0c054e2c1beb6ea522774029">Drone::livrerColis</a></div><div class="ttdeci">void livrerColis(const VecteurR3 &amp;retrait, const VecteurR3 &amp;depot)</div><div class="ttdef"><b>Definition:</b> Drone.cpp:78</div></div>
+<div class="ttc" id="class_drone_html"><div class="ttname"><a href="class_drone.html">Drone</a></div><div class="ttdef"><b>Definition:</b> Drone.h:15</div></div>
+<div class="ttc" id="class_drone_html_aaa8aa9eedb05b4c46bd92e88d5f14441"><div class="ttname"><a href="class_drone.html#aaa8aa9eedb05b4c46bd92e88d5f14441">Drone::porteUnColis</a></div><div class="ttdeci">bool porteUnColis() const</div><div class="ttdef"><b>Definition:</b> Drone.cpp:45</div></div>
+<div class="ttc" id="class_drone_html_a61e6934c19d51cecd69274b0c2f8f074"><div class="ttname"><a href="class_drone.html#a61e6934c19d51cecd69274b0c2f8f074">Drone::Drone</a></div><div class="ttdeci">Drone(const VecteurR3)</div><div class="ttdef"><b>Definition:</b> Drone.cpp:5</div></div>
+<div class="ttc" id="class_drone_html_a75aaefd8ca47db757ad38a10482aa042"><div class="ttname"><a href="class_drone.html#a75aaefd8ca47db757ad38a10482aa042">Drone::setAcceleration</a></div><div class="ttdeci">void setAcceleration(const VecteurR3 &amp;)</div><div class="ttdef"><b>Definition:</b> Drone.cpp:40</div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><b>Drone.h</b></li>
+    <li class="footer">Généré le Jeudi 24 Mai 2018 18:54:53 pour Drones par
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.14 </li>
+  </ul>
+</div>
+</body>
+</html>

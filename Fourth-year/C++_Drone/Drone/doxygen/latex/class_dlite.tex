@@ -1,0 +1,66 @@
+\hypertarget{class_dlite}{}\section{Référence de la classe Dlite}
+\label{class_dlite}\index{Dlite@{Dlite}}
+
+
+{\ttfamily \#include $<$Dlite.\+h$>$}
+
+Graphe d\textquotesingle{}héritage de Dlite\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_dlite}
+\end{center}
+\end{figure}
+\subsection*{Fonctions membres publiques}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_dlite_a5f34443536a222e38f043d8370ca7b90}{Dlite}} ()
+\item 
+virtual \mbox{\hyperlink{class_dlite_ab98746140c7aa4ded45a47459b4c47d5}{$\sim$\+Dlite}} ()
+\item 
+\mbox{\hyperlink{class_vecteur_r3}{Vecteur\+R3}} \mbox{\hyperlink{class_dlite_a78c005fea65d3ae2429f74fd1d63c581}{aller\+Point}} (\mbox{\hyperlink{class_vecteur_r3}{Vecteur\+R3}} pos\+Actuelle, \mbox{\hyperlink{class_vecteur_r3}{Vecteur\+R3}} destination, std\+::vector$<$ \mbox{\hyperlink{class_capteur}{Capteur}} $>$ v\+Capteurs)
+\end{DoxyCompactItemize}
+
+
+\subsection{Description détaillée}
+Type de \mbox{\hyperlink{class_comportement}{Comportement}}\+: algorithme \mbox{\hyperlink{class_dlite}{Dlite}}\+: amélioration dynamique de l\textquotesingle{}algorithme de pathfinding conventionnel A$\ast$. 
+
+\subsection{Documentation des constructeurs et destructeur}
+\mbox{\Hypertarget{class_dlite_a5f34443536a222e38f043d8370ca7b90}\label{class_dlite_a5f34443536a222e38f043d8370ca7b90}} 
+\index{Dlite@{Dlite}!Dlite@{Dlite}}
+\index{Dlite@{Dlite}!Dlite@{Dlite}}
+\subsubsection{\texorpdfstring{Dlite()}{Dlite()}}
+{\footnotesize\ttfamily Dlite\+::\+Dlite (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Constructeur de l\textquotesingle{}algorithme. \mbox{\Hypertarget{class_dlite_ab98746140c7aa4ded45a47459b4c47d5}\label{class_dlite_ab98746140c7aa4ded45a47459b4c47d5}} 
+\index{Dlite@{Dlite}!````~Dlite@{$\sim$\+Dlite}}
+\index{````~Dlite@{$\sim$\+Dlite}!Dlite@{Dlite}}
+\subsubsection{\texorpdfstring{$\sim$\+Dlite()}{~Dlite()}}
+{\footnotesize\ttfamily Dlite\+::$\sim$\+Dlite (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Destructeur de l\textquotesingle{}algorithme. 
+
+\subsection{Documentation des fonctions membres}
+\mbox{\Hypertarget{class_dlite_a78c005fea65d3ae2429f74fd1d63c581}\label{class_dlite_a78c005fea65d3ae2429f74fd1d63c581}} 
+\index{Dlite@{Dlite}!aller\+Point@{aller\+Point}}
+\index{aller\+Point@{aller\+Point}!Dlite@{Dlite}}
+\subsubsection{\texorpdfstring{aller\+Point()}{allerPoint()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_vecteur_r3}{Vecteur\+R3}} Dlite\+::aller\+Point (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_vecteur_r3}{Vecteur\+R3}}}]{pos\+Actuelle,  }\item[{\mbox{\hyperlink{class_vecteur_r3}{Vecteur\+R3}}}]{destination,  }\item[{std\+::vector$<$ \mbox{\hyperlink{class_capteur}{Capteur}} $>$}]{v\+Capteurs }\end{DoxyParamCaption})}
+
+Méthode fondamentale de \mbox{\hyperlink{class_comportement}{Comportement}} des Drones. A partir des positions du \mbox{\hyperlink{class_drone}{Drone}}, de son premier objectif et des capteurs, détermine le vecteur accélération pour la frame suivante. 
+\begin{DoxyParams}{Paramètres}
+{\em pos\+Actuelle} & la position du \mbox{\hyperlink{class_drone}{Drone}} au temps t. \\
+\hline
+{\em destination} & la position à atteindre. \\
+\hline
+{\em v\+Capteurs,le} & vecteur des Capteurs donnant l\textquotesingle{}information sensorielle du \mbox{\hyperlink{class_drone}{Drone}}. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+le vecteur accélération 
+\end{DoxyReturn}
+
+
+La documentation de cette classe a été générée à partir des fichiers suivants \+:\begin{DoxyCompactItemize}
+\item 
+Dlite.\+h\item 
+Dlite.\+cpp\end{DoxyCompactItemize}

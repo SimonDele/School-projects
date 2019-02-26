@@ -1,0 +1,8 @@
+ENVIRONNEMENT_H	/home/louis/Dropbox/GM4/Projets/C++/Drones/include/Environnement.h	/^#define ENVIRONNEMENT_H$/;"	macro	line:2
+Environnement	/home/louis/Dropbox/GM4/Projets/C++/Drones/include/Environnement.h	/^class Environnement {$/;"	class	line:19
+origineEnv	/home/louis/Dropbox/GM4/Projets/C++/Drones/include/Environnement.h	/^        VecteurR3 origineEnv;$/;"	member	line:22	class:Environnement
+cote	/home/louis/Dropbox/GM4/Projets/C++/Drones/include/Environnement.h	/^        float cote;$/;"	member	line:24	class:Environnement
+vObstacles	/home/louis/Dropbox/GM4/Projets/C++/Drones/include/Environnement.h	/^        std::vector<Obstacle> vObstacles;$/;"	member	line:26	class:Environnement
+essaim	/home/louis/Dropbox/GM4/Projets/C++/Drones/include/Environnement.h	/^        Essaim essaim;$/;"	member	line:29	class:Environnement
+g	/home/louis/Dropbox/GM4/Projets/C++/Drones/include/Environnement.h	/^        float g;$/;"	member	line:32	class:Environnement
+vColis	/home/louis/Dropbox/GM4/Projets/C++/Drones/include/Environnement.h	/^        std::vector<VecteurR3> vColis;$/;"	member	line:34	class:Environnement

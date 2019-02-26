@@ -1,0 +1,100 @@
+\hypertarget{class_capteur}{}\section{Référence de la classe Capteur}
+\label{class_capteur}\index{Capteur@{Capteur}}
+
+
+{\ttfamily \#include $<$Capteur.\+h$>$}
+
+\subsection*{Fonctions membres publiques}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_capteur_a507682442d44b555477ada24146be12f}{Capteur}} (const float \&p, const \mbox{\hyperlink{class_vecteur_r3}{Vecteur\+R3}} \&dir, \mbox{\hyperlink{class_environnement}{Environnement}} $\ast$environnement)
+\item 
+virtual \mbox{\hyperlink{class_capteur_a2bbfecdceba5e9a13fc7c55cc5f7eae3}{$\sim$\+Capteur}} ()
+\item 
+float \mbox{\hyperlink{class_capteur_a7b56d66e80c4de6c796b32bc978475e9}{get\+Distance\+Detectee}} () const
+\item 
+float \mbox{\hyperlink{class_capteur_a6022e941e6ebe7d3472a28802ef0b4c0}{get\+Portee}} () const
+\item 
+\mbox{\Hypertarget{class_capteur_ac37318cd8a0199f42321381f6002aa8f}\label{class_capteur_ac37318cd8a0199f42321381f6002aa8f}} 
+void {\bfseries update\+Distance\+Detectee\+Obstacle} ()
+\item 
+\mbox{\Hypertarget{class_capteur_a4abe39065d4aa28aa457f41424a449af}\label{class_capteur_a4abe39065d4aa28aa457f41424a449af}} 
+void {\bfseries update\+Distance\+Detectee\+Bords} ()
+\item 
+void \mbox{\hyperlink{class_capteur_a0e4afe7bdc6e27985564cf69daedca07}{update\+Distance\+Detectee}} ()
+\item 
+\mbox{\hyperlink{class_vecteur_r3}{Vecteur\+R3}} \mbox{\hyperlink{class_capteur_aa92b7552969206047df939d641cfb802}{get\+Direction}} () const
+\item 
+bool \mbox{\hyperlink{class_capteur_a0229c6b8fc7838932c53157eb3110b5b}{detecte\+Q\+Qch}} () const
+\item 
+void \mbox{\hyperlink{class_capteur_aa25dc5f9211e43691bd8351265a2b3b3}{associer\+Info\+Drone}} (const float, \mbox{\hyperlink{class_vecteur_r3}{Vecteur\+R3}} $\ast$)
+\end{DoxyCompactItemize}
+
+
+\subsection{Description détaillée}
+\begin{DoxyAuthor}{Auteurs}
+Timothé 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+20 Avril 2018
+\end{DoxyDate}
+Les capteurs sont les outils nécéssaires aux drones pour detecter les obstacles alentours à une distance donnée. 
+
+\subsection{Documentation des constructeurs et destructeur}
+\mbox{\Hypertarget{class_capteur_a507682442d44b555477ada24146be12f}\label{class_capteur_a507682442d44b555477ada24146be12f}} 
+\index{Capteur@{Capteur}!Capteur@{Capteur}}
+\index{Capteur@{Capteur}!Capteur@{Capteur}}
+\subsubsection{\texorpdfstring{Capteur()}{Capteur()}}
+{\footnotesize\ttfamily Capteur\+::\+Capteur (\begin{DoxyParamCaption}\item[{const float \&}]{p,  }\item[{const \mbox{\hyperlink{class_vecteur_r3}{Vecteur\+R3}} \&}]{dir,  }\item[{\mbox{\hyperlink{class_environnement}{Environnement}} $\ast$}]{environnement }\end{DoxyParamCaption})}
+
+Constructeur de \mbox{\hyperlink{class_capteur}{Capteur}} initialisant tous ses paramètres à des valeurs données en entrée. \mbox{\Hypertarget{class_capteur_a2bbfecdceba5e9a13fc7c55cc5f7eae3}\label{class_capteur_a2bbfecdceba5e9a13fc7c55cc5f7eae3}} 
+\index{Capteur@{Capteur}!````~Capteur@{$\sim$\+Capteur}}
+\index{````~Capteur@{$\sim$\+Capteur}!Capteur@{Capteur}}
+\subsubsection{\texorpdfstring{$\sim$\+Capteur()}{~Capteur()}}
+{\footnotesize\ttfamily Capteur\+::$\sim$\+Capteur (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Déstructeur de \mbox{\hyperlink{class_capteur}{Capteur}} 
+
+\subsection{Documentation des fonctions membres}
+\mbox{\Hypertarget{class_capteur_aa25dc5f9211e43691bd8351265a2b3b3}\label{class_capteur_aa25dc5f9211e43691bd8351265a2b3b3}} 
+\index{Capteur@{Capteur}!associer\+Info\+Drone@{associer\+Info\+Drone}}
+\index{associer\+Info\+Drone@{associer\+Info\+Drone}!Capteur@{Capteur}}
+\subsubsection{\texorpdfstring{associer\+Info\+Drone()}{associerInfoDrone()}}
+{\footnotesize\ttfamily void Capteur\+::associer\+Info\+Drone (\begin{DoxyParamCaption}\item[{const float}]{rayon,  }\item[{\mbox{\hyperlink{class_vecteur_r3}{Vecteur\+R3}} $\ast$}]{\+\_\+p\+Position\+Drone }\end{DoxyParamCaption})}
+
+Associe les informations (utiles au \mbox{\hyperlink{class_capteur}{Capteur}}) du \mbox{\hyperlink{class_drone}{Drone}} à ce \mbox{\hyperlink{class_capteur}{Capteur}} \mbox{\Hypertarget{class_capteur_a0229c6b8fc7838932c53157eb3110b5b}\label{class_capteur_a0229c6b8fc7838932c53157eb3110b5b}} 
+\index{Capteur@{Capteur}!detecte\+Q\+Qch@{detecte\+Q\+Qch}}
+\index{detecte\+Q\+Qch@{detecte\+Q\+Qch}!Capteur@{Capteur}}
+\subsubsection{\texorpdfstring{detecte\+Q\+Qch()}{detecteQQch()}}
+{\footnotesize\ttfamily bool Capteur\+::detecte\+Q\+Qch (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Renvoie un boolean donnant si le capteur detecte un obstacle (dist\+Detectee$<$portee) \mbox{\Hypertarget{class_capteur_aa92b7552969206047df939d641cfb802}\label{class_capteur_aa92b7552969206047df939d641cfb802}} 
+\index{Capteur@{Capteur}!get\+Direction@{get\+Direction}}
+\index{get\+Direction@{get\+Direction}!Capteur@{Capteur}}
+\subsubsection{\texorpdfstring{get\+Direction()}{getDirection()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_vecteur_r3}{Vecteur\+R3}} Capteur\+::get\+Direction (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Getter de la direction du capteur \mbox{\Hypertarget{class_capteur_a7b56d66e80c4de6c796b32bc978475e9}\label{class_capteur_a7b56d66e80c4de6c796b32bc978475e9}} 
+\index{Capteur@{Capteur}!get\+Distance\+Detectee@{get\+Distance\+Detectee}}
+\index{get\+Distance\+Detectee@{get\+Distance\+Detectee}!Capteur@{Capteur}}
+\subsubsection{\texorpdfstring{get\+Distance\+Detectee()}{getDistanceDetectee()}}
+{\footnotesize\ttfamily float Capteur\+::get\+Distance\+Detectee (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Getter de la distance detectee par le capteur \mbox{\Hypertarget{class_capteur_a6022e941e6ebe7d3472a28802ef0b4c0}\label{class_capteur_a6022e941e6ebe7d3472a28802ef0b4c0}} 
+\index{Capteur@{Capteur}!get\+Portee@{get\+Portee}}
+\index{get\+Portee@{get\+Portee}!Capteur@{Capteur}}
+\subsubsection{\texorpdfstring{get\+Portee()}{getPortee()}}
+{\footnotesize\ttfamily float Capteur\+::get\+Portee (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Getter portée du capteur \mbox{\Hypertarget{class_capteur_a0e4afe7bdc6e27985564cf69daedca07}\label{class_capteur_a0e4afe7bdc6e27985564cf69daedca07}} 
+\index{Capteur@{Capteur}!update\+Distance\+Detectee@{update\+Distance\+Detectee}}
+\index{update\+Distance\+Detectee@{update\+Distance\+Detectee}!Capteur@{Capteur}}
+\subsubsection{\texorpdfstring{update\+Distance\+Detectee()}{updateDistanceDetectee()}}
+{\footnotesize\ttfamily void Capteur\+::update\+Distance\+Detectee (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Calcul la distance entre le drone et les obstacles alentours. La fonction sera appelée par drone, de manière itérative. 
+
+La documentation de cette classe a été générée à partir des fichiers suivants \+:\begin{DoxyCompactItemize}
+\item 
+Capteur.\+h\item 
+Capteur.\+cpp\end{DoxyCompactItemize}

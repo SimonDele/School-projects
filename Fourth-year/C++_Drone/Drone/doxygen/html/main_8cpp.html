@@ -1,0 +1,175 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.14"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Drones: Référence du fichier main.cpp</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+  $(document).ready(initResizable);
+/* @license-end */</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Drones
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Généré par Doxygen 1.8.14 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Recherche');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Recherche');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(document).ready(function(){initNavTree('main_8cpp.html','');});
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#define-members">Macros</a> &#124;
+<a href="#func-members">Fonctions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
+  <div class="headertitle">
+<div class="title">Référence du fichier main.cpp</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &lt;SDL/SDL.h&gt;</code><br />
+<code>#include &lt;GL/gl.h&gt;</code><br />
+<code>#include &lt;GL/glu.h&gt;</code><br />
+<code>#include &lt;cstdlib&gt;</code><br />
+<code>#include &lt;list&gt;</code><br />
+<code>#include &lt;cppunit/TestCase.h&gt;</code><br />
+<code>#include &lt;cppunit/TestFixture.h&gt;</code><br />
+<code>#include &lt;cppunit/ui/text/TextTestRunner.h&gt;</code><br />
+<code>#include &lt;cppunit/extensions/HelperMacros.h&gt;</code><br />
+<code>#include &lt;cppunit/extensions/TestFactoryRegistry.h&gt;</code><br />
+<code>#include &lt;cppunit/TestResult.h&gt;</code><br />
+<code>#include &lt;cppunit/TestResultCollector.h&gt;</code><br />
+<code>#include &lt;cppunit/TestRunner.h&gt;</code><br />
+<code>#include &lt;cppunit/BriefTestProgressListener.h&gt;</code><br />
+<code>#include &lt;cppunit/CompilerOutputter.h&gt;</code><br />
+<code>#include &lt;cppunit/XmlOutputter.h&gt;</code><br />
+<code>#include &lt;netinet/in.h&gt;</code><br />
+<code>#include &quot;../include/trackballcamera.h&quot;</code><br />
+<code>#include &quot;../include/sdlglutils.h&quot;</code><br />
+<code>#include &quot;../include/Environnement.h&quot;</code><br />
+<code>#include &quot;../include/Essaim.h&quot;</code><br />
+<code>#include &quot;../include/Affichage.h&quot;</code><br />
+<code>#include &quot;../tests/testsVecteurR3.h&quot;</code><br />
+<code>#include &quot;../tests/testsEssaim.h&quot;</code><br />
+<code>#include &quot;../tests/testsDrone.h&quot;</code><br />
+</div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:ab946e2e7f7679350627acfded8e2658b"><td class="memItemLeft" align="right" valign="top"><a id="ab946e2e7f7679350627acfded8e2658b"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>TEST</b>&#160;&#160;&#160;true</td></tr>
+<tr class="separator:ab946e2e7f7679350627acfded8e2658b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac92ca5ab87034a348decad7ee8d4bd1b"><td class="memItemLeft" align="right" valign="top"><a id="ac92ca5ab87034a348decad7ee8d4bd1b"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>FPS</b>&#160;&#160;&#160;50</td></tr>
+<tr class="separator:ac92ca5ab87034a348decad7ee8d4bd1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6068a247ff9ece1b0a9773c58144906c"><td class="memItemLeft" align="right" valign="top"><a id="a6068a247ff9ece1b0a9773c58144906c"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>LARGEUR_FENETRE</b>&#160;&#160;&#160;1366</td></tr>
+<tr class="separator:a6068a247ff9ece1b0a9773c58144906c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afd1a1e285af564b849b17498e82e1a41"><td class="memItemLeft" align="right" valign="top"><a id="afd1a1e285af564b849b17498e82e1a41"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HAUTEUR_FENETRE</b>&#160;&#160;&#160;700</td></tr>
+<tr class="separator:afd1a1e285af564b849b17498e82e1a41"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Fonctions</h2></td></tr>
+<tr class="memitem:aa077d8200171dd615695f3849282b412"><td class="memItemLeft" align="right" valign="top"><a id="aa077d8200171dd615695f3849282b412"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>CPPUNIT_TEST_SUITE_REGISTRATION</b> (<a class="el" href="classtests_vecteur_r3.html">testsVecteurR3</a>)</td></tr>
+<tr class="separator:aa077d8200171dd615695f3849282b412"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af0fac8be53d627608f0cc7b2a803a1e9"><td class="memItemLeft" align="right" valign="top"><a id="af0fac8be53d627608f0cc7b2a803a1e9"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>CPPUNIT_TEST_SUITE_REGISTRATION</b> (<a class="el" href="classtests_essaim.html">testsEssaim</a>)</td></tr>
+<tr class="separator:af0fac8be53d627608f0cc7b2a803a1e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6dc335257f100e7c406d789fed5ea4c2"><td class="memItemLeft" align="right" valign="top"><a id="a6dc335257f100e7c406d789fed5ea4c2"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>CPPUNIT_TEST_SUITE_REGISTRATION</b> (<a class="el" href="classtests_drone.html">testsDrone</a>)</td></tr>
+<tr class="separator:a6dc335257f100e7c406d789fed5ea4c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8c528baf37154d347366083f0f816846"><td class="memItemLeft" align="right" valign="top"><a id="a8c528baf37154d347366083f0f816846"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>stop</b> ()</td></tr>
+<tr class="separator:a8c528baf37154d347366083f0f816846"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ddf1224851353fc92bfbff6f499fa97"><td class="memItemLeft" align="right" valign="top"><a id="a0ddf1224851353fc92bfbff6f499fa97"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>main</b> (int argc, char *argv[])</td></tr>
+<tr class="separator:a0ddf1224851353fc92bfbff6f499fa97"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:a671e62fc8f42246b1abdc555ed91bcc5"><td class="memItemLeft" align="right" valign="top"><a id="a671e62fc8f42246b1abdc555ed91bcc5"></a>
+<a class="el" href="class_track_ball_camera.html">TrackBallCamera</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>camera</b></td></tr>
+<tr class="separator:a671e62fc8f42246b1abdc555ed91bcc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Description détaillée</h2>
+<div class="textblock"><p>Fichier contenant la fonction main, à lancer pour démarrer l'application <a class="el" href="class_drone.html">Drone</a> </p>
+</div></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="main_8cpp.html">main.cpp</a></li>
+    <li class="footer">Généré le Jeudi 24 Mai 2018 18:54:53 pour Drones par
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.14 </li>
+  </ul>
+</div>
+</body>
+</html>
