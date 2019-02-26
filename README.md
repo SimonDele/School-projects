@@ -7,7 +7,11 @@ List of some interesting projects completed while being at INSA Rouen Normandie 
 * **Inpainting** with a Deep Learning approach following a Nvidia paper by G. Liu in 2018 [
 Image Inpainting for Irregular Holes Using Partial Convolutions](https://arxiv.org/abs/1804.07723).
 
-* Introduction to **constraints and logical programming** using *Prolog*. In this course, with my colleague, we implemented 1) a near brute force approach, 2) a **backtracking** algorithm, 3) a constraint approach with a finite **automaton** on a Picross Grid (a more complex Sudoku variant). [[report]](https://github.com/SimonDele/School-projects/Final-year/Projet_Picross.pdf)
+* Introduction to **constraints and logical programming** using *Prolog*. In this course, with my colleague, we implemented 1) a near brute force approach, 2) a **backtracking** algorithm, 3) a constraint approach with a finite **automaton** on a Picross Grid (a more complex Sudoku variant). [[report]](https://github.com/SimonDele/School-projects/Final-year/Picross/Projet_Picross.pdf)
+
+
+![Alt](https://github.com/SimonDele/School-projects/Final-year/Picross/images/picross-simple.png "Title")
+
 
 * **Multi-agents system** course : *modelisation and simulation* of severe desease expansion in a city using [Gama Platform](https://gama-platform.github.io/). [[report]](https://github.com/SimonDele/School-projects/Final-year/SMA_TP_GAML.pdf). 
 
