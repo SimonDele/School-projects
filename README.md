@@ -17,7 +17,7 @@ Image Inpainting for Irregular Holes Using Partial Convolutions](https://arxiv.o
 
 ## 2018 - Fourth year
 
-* Implementation of a **Genetic Algorithm** and a simple **Neural Network** to play a game called Flappy Bird (re-implemented) in *Java*. To see the repo click [here](https://github.com/SimonDele/Flappy-Bird-proj-sem). 
+* Implementation of a **Genetic Algorithm** and a simple **Neural Network** to play a game called Flappy Bird (re-implemented) in *Java*. To see the repo click [here](https://github.com/SimonDele/Flappy-Bird-proj-sem), and for report [here](https://github.com/SimonDele/School-projects/blob/master/Fourth-year/Flappy_Bird_IA.pdf). 
 
 * C++
 
