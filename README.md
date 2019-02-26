@@ -1,7 +1,7 @@
 # School-projects
 
 List of some interesting projects completed while being at INSA Rouen Normandie in **Applied Mathematics** department.
-
+ 
 ## 2019 - Final year
 
 * **Inpainting** with a Deep Learning approach following a Nvidia paper by G. Liu in 2018 [
