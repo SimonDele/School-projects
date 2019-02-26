@@ -1,6 +1,6 @@
 # School-projects
 
-List of some interesting projects completed while being at INSA Rouen Normandie.
+List of some interesting projects completed while being at INSA Rouen Normandie in **Applied Mathematics** department.
 
 ## 2019 - Final year
 
@@ -13,7 +13,7 @@ Image Inpainting for Irregular Holes Using Partial Convolutions](https://arxiv.o
 
 * **Virtual Reality** course : development of an *immersive* game with the *Unity engine* and *C#* with 2 other teammates. The game simulates a plane dives, where the player needs to control a parachutist in order to land on a target.    
 
-* **Data Science** course : Titanic competion in Kaggle
+* **Data Science** course : Titanic competion in Kaggle, kernel available [here](https://www.kaggle.com/sdelecourt/randomforest-grid-search-fine-tuning-cv)
 
 ## 2018 - Fourth year
 
